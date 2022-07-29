@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Nunito:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    color: rgb(42, 40, 44);
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    height: 13.2vh;
+    background-color: rgba(44, 52, 60, .5);
+    font-size: 1rem;
+    /* flexbox for aligning logo and nav bar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo styling */
+#bim-logo {
+    width: 15%;
+    text-align: center;
+}
+
+#bim-logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#bim-logo h1 {
+    font-family: 'Lora', serif;
+    font-size: 2.8rem;
+    font-weight: lighter;
+}
+
+#bim-logo hr {
+    border-bottom: 1px solid;
+    width: 60%;
+    margin: 0.15rem auto;
+}
+
+#bim-logo p {
+    letter-spacing: 0.1rem;
+}
+
+/* Nav bar styling */
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 1.6rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Lora', serif;
+}

@@ -49,7 +49,7 @@ All wireframes were created with [Figma](https://www.figma.com/).
 I've used [Coolors](https://coolors.co/) website to generate a colour palette for the website. The palette was generated from the __hero image__ from the homepage and then adjusted to my personal preferences. The result is a palette that fits well with the whole design and images chosen.
 
 [See color palette](docs/palette.png)
-- #### FAVICON
+- #### ICONS
 
 - #### TYPOGRAPHY
 

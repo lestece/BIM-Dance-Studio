@@ -263,4 +263,34 @@ nav a:hover {
 
 .btn-box{
     text-align: center;
+    margin-top: 5rem;
+}
+
+/* Meet the team section styles */
+#meet-the-team{
+    background-color: rgb(197, 192, 185);
+    margin-top: 8rem;
+    padding: 4rem;
+    /* flexbox to position content and button inside of the section */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#meet-the-team-text-box{
+    font-family: 'Lora', serif;
+    width: 40%;
+    line-height: 3rem;
+}
+
+#meet-the-team-btn{
+    background-color:rgba(44, 52, 60, 0.4);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(197, 192, 185, 0.24), 0 17px 50px 0 rgba(197, 192, 185, 0.19);
+}
+
+#meet-the-team-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color:rgba(44, 52, 60, .9);
+    box-shadow: 0 12px 16px 0 rgba(44, 52, 60, 0.24), 0 17px 50px 0 rgba(44, 52, 60, 0.19);
 }

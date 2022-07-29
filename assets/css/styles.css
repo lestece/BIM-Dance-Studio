@@ -81,4 +81,13 @@ nav a {
     height: 100%;
     background: url(../images/hero-image.jpg) no-repeat 40% 37%;
     background-size: 100%;
+    /* remove image from flow and bring behind so that hero content comes through */
+    position: absolute;
+    z-index: -1;
+    /* blur effect*/
+    -webkit-filter: blur(1.7px);
+    -moz-filter: blur(1.7px);
+    -o-filter: blur(1.7px);
+    -ms-filter: blur(1.7px);
+    filter: blur(1.7px);
 }

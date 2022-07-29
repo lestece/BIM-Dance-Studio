@@ -155,3 +155,53 @@ nav a:hover {
     color: rgba(44, 52, 60, .9);
     box-shadow: 0 12px 16px 0 rgba(44, 52, 60, 0.24), 0 17px 50px 0 rgba(44, 52, 60, 0.19);
 }
+
+* Genres taught styles */ #genres-taught {
+    margin-top: 6rem;
+}
+
+#genres-taught p {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 4rem;
+}
+
+#genres-taught h2 {
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+/* grid for laying out genres in two columns and two rows */
+
+#genres-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 320px;
+
+    margin: 3rem;
+}
+
+/* background images and styles for each genre box */
+#ballet-box {
+    background: url(../images/ballet.jpg) no-repeat 20% 40%;
+    background-size: cover;
+}
+
+#jazz-box {
+    background: url(../images/jazz.jpg) no-repeat 20% 40%;
+    background-size: cover;
+}
+
+#contemporary-box {
+    background: url(../images/contemporary.jpg) no-repeat 20% 40%;
+    background-size: cover;
+}
+
+#afro-box {
+    background: url(../images/afro.jpg) no-repeat 20% 40%;
+    background-size: cover;
+}

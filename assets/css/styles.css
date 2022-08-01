@@ -314,3 +314,74 @@ nav a:hover {
 #pricing button{
     margin-top: 4rem;
 }
+
+/* Location styling */
+#location{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+iframe{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(44, 52, 60);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    /* Flexbox for making the blocks equal in size and positioned on a single row */
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer > *{
+    flex: 1;
+}
+
+footer h2{
+    font-family: 'Lora', serif;
+    color: rgb(197, 192, 185);
+    margin-bottom: 1rem;
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.footer-flex-item{
+    flex-grow: 1;
+    margin: 2rem;
+}
+
+.footer-flex-item:nth-child(2), 
+.footer-flex-item:nth-child(3){
+    text-align: center;
+}
+
+.footer-flex-item:nth-child(3){
+    align-self: center;
+}
+
+#social-container{
+    /* Grid on social media div to distribute 2 links on each row */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    height: 100%;
+    align-items: center;
+}
+
+#social-container > *{
+    list-style: none;
+}
+
+#social-container i{
+    font-size: 2.5rem;
+    color: rgb(197, 192, 185);
+}

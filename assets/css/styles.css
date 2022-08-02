@@ -94,7 +94,7 @@ nav a:hover {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: rgb(255, 255, 255);
 }
 
 /* hero image */
@@ -469,6 +469,8 @@ footer a {
         height: 10vh;
         flex-direction: row;
         justify-content: space-between;
+        position:fixed;
+        z-index: 1;
     }
 
     #bim-logo h1 {
@@ -482,12 +484,11 @@ footer a {
     .nav-flex-container {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 10vh;
         flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
+        align-items: flex-end;
+        background-color: rgb(197, 192, 185);
+        width: 100vw;
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
@@ -498,11 +499,11 @@ footer a {
     }
 
     .nav-flex-item {
-        margin: 2.5rem 0;
+        margin: 1rem 2.5rem;
     }
 
     .nav-flex-item a {
-        color: black;
+        color: rgb(44, 52, 60);
     }
 
     .hamburger {

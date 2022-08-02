@@ -416,38 +416,38 @@ footer a {
 /* small devices (portrait tablets and large phones, 768px and down) */
 @media only screen and (max-width: 768px) {
 
-    .genres-wrapper{
+    .genres-wrapper {
         grid-template-columns: 1fr;
         margin: 1rem 0;
     }
 
-    
 
-    #meet-the-team{
+
+    #meet-the-team {
         display: block;
         text-align: center;
     }
 
-    #meet-the-team-text-box{
+    #meet-the-team-text-box {
         width: 80%;
         margin: 0 auto 2rem;
     }
 
-    #pricing h2{
+    #pricing h2 {
         margin: auto 2rem;
     }
 
-    footer{
+    footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .footer-flex-item:nth-child(3){
+    .footer-flex-item:nth-child(3) {
         grid-column-start: 1;
         grid-column-end: 3;
     }
 
-    footer #social-container{
+    footer #social-container {
         display: flex;
         justify-content: space-around;
     }
@@ -456,30 +456,30 @@ footer a {
 /* small/extra small devices (phones and large phones, 666px and down) */
 @media only screen and (max-width: 666px) {
 
-    *{
+    * {
         font-size: 1rem;
     }
 
-    button{
-        font-size:1rem;
+    button {
+        font-size: 1rem;
         padding: 0.5rem 0.5rem;
     }
 
-    header{
+    header {
         height: 10vh;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    #bim-logo h1{
+    #bim-logo h1 {
         font-size: 1.5rem;
     }
 
-    #bim-logo p{
+    #bim-logo p {
         font-size: 0.8rem;
     }
 
-    .nav-flex-container{
+    .nav-flex-container {
         position: fixed;
         left: -100%;
         top: 5rem;
@@ -493,24 +493,24 @@ footer a {
             0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
-     .nav-flex-container.active {
+    .nav-flex-container.active {
         left: 0;
     }
 
     .nav-flex-item {
         margin: 2.5rem 0;
     }
-  
-  .nav-flex-item a{
-    color:black;
-  }
-  
-  .hamburger {
+
+    .nav-flex-item a {
+        color: black;
+    }
+
+    .hamburger {
         display: block;
         cursor: pointer;
     }
-  
-  .hamburger.active .bar:nth-child(2) {
+
+    .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
@@ -522,4 +522,60 @@ footer a {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    /* Fix measures for avoiding hero background image to shrink until the section breaks */
+    /* Tested the measures down to 318px */
+
+    .hero-content-text {
+        min-width: 90vw;
+        padding: 2%;
+        margin-top: 10vh;
+    }
+
+    .hero-content button {
+        max-width: 95vw;
+    }
+
+    #genres-taught {
+        margin-top: 2rem;
+    }
+
+    #genres-taught p {
+        line-height: 2rem;
+        min-width: 95vw;
+        margin: 0 1rem;
+    }
+
+    #genres-taught h2 {
+        margin-top: 2rem;
+        font-size: 1.4rem;
+    }
+
+    #meet-the-team {
+        margin-top: 3rem;
+        padding: 0.5rem 0;
+    }
+
+    #pricing {
+        margin-top: 3rem;
+    }
+
+    #pricing p {
+        line-height: 2rem;
+        min-width: 95vw;
+    }
+
+    #pricing button {
+        margin-top: 2rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-flex-item:nth-child(3) {
+        align-self: stretch;
+    }
 }

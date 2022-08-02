@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <!-- Header containing logo and nav-bar -->
+    <!-- Header containing logo and nav-bar for desktops -->
     <header>
         <!-- Logo -->
         <div id="bim-logo">
@@ -35,6 +35,13 @@
                         Prices</a></li>
                 <li class="nav-flex-item"> <a href="#" aria-label="Link to to the Booking page">Book now!</a></li>
             </ul>
+
+            <!-- Hamburger menu for smartphones: adapted on the tutorial followed on https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
@@ -177,6 +184,29 @@
 
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
+
+    <!-- dev.to script for hamburger menu -->
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-flex-container");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+        // To close the hamburger menu when we click a link
+
+        const navLink = document.querySelectorAll(".nav-link");
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        function closeMenu() {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }
+    </script>
 </body>
 
 </html>

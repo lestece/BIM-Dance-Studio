@@ -83,6 +83,20 @@ nav a:hover {
     box-shadow: 0 12px 16px 0 rgba(44, 52, 60, 0.24), 0 17px 50px 0 rgba(44, 52, 60, 0.19);
 }
 
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
 /* hero image */
 .hero-outer {
     width: 100vw;
@@ -351,7 +365,7 @@ footer a {
     /* Grid on social media div to distribute 2 links on each row */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 80px;
+    row-gap: 6rem;
     height: 100%;
     align-items: center;
 }
@@ -437,4 +451,75 @@ footer a {
         display: flex;
         justify-content: space-around;
     }
+}
+
+/* small/extra small devices (phones and large phones, 666px and down) */
+@media only screen and (max-width: 666px) {
+
+    *{
+        font-size: 1rem;
+    }
+
+    button{
+        font-size:1rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    header{
+        height: 10vh;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bim-logo h1{
+        font-size: 1.5rem;
+    }
+
+    #bim-logo p{
+        font-size: 0.8rem;
+    }
+
+    .nav-flex-container{
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+     .nav-flex-container.active {
+        left: 0;
+    }
+
+    .nav-flex-item {
+        margin: 2.5rem 0;
+    }
+  
+  .nav-flex-item a{
+    color:black;
+  }
+  
+  .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+  
+  .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
 }

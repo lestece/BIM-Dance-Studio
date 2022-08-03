@@ -18,6 +18,9 @@ Website for a dance studio based in Edinburgh
 3. [FEATURES](#3-features) 
     - [Existing features](#existing-features)
         - [Header](#header)
+        - [Hero Section](#hero-section)
+        - [Classes Section](#classes-section)
+        - [Instructors Section](#meet-the-team-section)
 4. [TESTING](#4-testing)
 5. [CREDITS](#5-credits)
 6. [DEPLOYMENT](#6-deployment)
@@ -96,11 +99,28 @@ On large screen sizes the logo is positioned on the left of the header, while th
 ![Tablet header](docs/docs-images/tablet-header.png)
 
 On tablets views the header is displayed in two different rows, with the logo at the top and the nav bar below it (flex direction changed to column).
+
 ![Smartphone header](docs/docs-images/smartphone-header.png) ![Smartphone header active](docs/docs-images/smartphone-header-active.png)
 
 In smaller screen sizes the header goes back to display the logo on the left, with the difference that now the navigation bar has been replaced by an hamburger menu.
 
+- #### HERO SECTION
 
+The hero section showcases the dance studio flair: with a catchy background image overlayed by a captivating intro about the website objective, it also contains an immediate call to action for users to book a class.
+
+![Hero section](docs/docs-images/hero-image-section.png)
+
+- #### CLASSES SECTION
+
+After a brief introduction, the classes section under the hero displays a grid of the dance genres taught in the studio (paired with an image) and a button that links to the "Classes & Prices" page. It's a further aid for navigation purposes and encourages users to discover more and feel more engaged with the brand.
+
+![Classes section](docs/docs-images/classes-section.png)
+
+- #### MEET THE TEAM SECTION
+
+This section of the homepage reassures the user about the studio reliability. It also provides a link to the "Instructors" page of the website.
+
+![Instructors section](docs/docs-images/meet-the-team.png)
 
 ## 4. TESTING
 

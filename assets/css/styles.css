@@ -382,6 +382,37 @@ footer a {
 
 
 
+/* Styles for instuctors.html */
+
+.hero-instructors{
+    background: url(../images/instructors-img.jpg) no-repeat 40% 37%;
+    background-size: 100%;
+ }
+
+
+.instructor-box img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

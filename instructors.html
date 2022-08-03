@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dance studio offering adult dance classes in Edinburgh">
+    <meta name="keywords" content="dance studio, dance classes, dance, scotland, edinburgh">
+    <meta name="author" content="Celeste Loi">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>BIM Dance Studio</title>
+</head>
+
+<body>
+    <!-- Header containing logo and nav-bar -->
+    <header>
+        <!-- Logo -->
+        <div id="bim-logo">
+            <a href="index.html">
+                <h1>BIM</h1>
+                <hr>
+                <p>dance studio</p>
+            </a>
+        </div>
+        <!-- Nav bar -->
+        <nav>
+            <ul class="nav-flex-container">
+                <li class="nav-flex-item"> <a href="index.html" aria-label="Link to Homepage">Home</a>
+                </li>
+                <li class="nav-flex-item"> <a href="instructors.html" class="active"
+                        aria-label="Link to the Instructors page">Instructors</a></li>
+                <li class="nav-flex-item"> <a href="#" aria-label="Link to Classes and Pricing page">Classes &
+                        Prices</a></li>
+                <li class="nav-flex-item"> <a href="#" aria-label="Link to to the Booking page">Book now!</a></li>
+            </ul>
+
+            <!-- Hamburger menu for smartphones: adapted on the tutorial followed on https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Homepage main content -->
+    <main>
+        <!-- Hero image  -->
+        <section class="hero-outer hero-instructors">
+            <div class="hero-content">
+                <div class="hero-content-text">
+                    <h2>Meet our team of fully qualified instructors!</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="instructors">
+
+            <div class="instructor-box instructor-1">
+                <div class="instructor-img">
+                    <img src="assets/images/sasha.jpg" alt="Ballet teacher profile image">
+                </div>
+                <div class="instructor-specifics">
+                    <h3>Sasha Graham</h3>
+                    <p>Ballet</p>
+                </div>
+                <div class="instructor-details">
+                    <p>After graduating at the Royal Academy of Dance
+                        in Ballet Teaching studies , Sasha has performed
+                        in a multitude of dance recitals around the world
+                        to further her experience.
+                        <br>
+                        She’s been teaching Ballet at BIM for 4 years now,
+                        and her student ballerinas love her!
+                    </p>
+                </div>
+            </div>
+
+            <div class="instructor-box instructor-2">
+                <div class="instructor-img">
+                    <img src="assets/images/francis.jpg" alt="Jazz teacher profile image">
+                </div>
+                <div class="instructor-specifics">
+                    <h3>Francis Moulin</h3>
+                    <p>Jazz</p>
+                </div>
+                <div class="instructor-details">
+                    <p>If you ask Francis’ parents how he was as a kid, 
+                        they’d tell you he’d never stop dancing!
+                        <br>
+                        Being obvious what his call was, in 2016 he
+                        graduated in Dance and Performance BA (Hons) 
+                        at UCEN Manchester: 2 months later he was already ideating choreographies in our studio.
+                        </p>
+                </div>
+            </div>
+
+            <div class="instructor-box instructor-3">
+                <div class="instructor-img">
+                    <img src="assets/images/adriana.jpg" alt="Contemporary teacher profile image">
+                </div>
+                <div class="instructor-specifics">
+                    <h3>Adriana Bassi</h3>
+                    <p>Contemporary</p>
+                </div>
+                <div class="instructor-details">
+                    <p>Adriana has one of those shiny personalities that 
+                        are able to conquer a room full of people!
+                        And this reflects on her classes: they’re 
+                        energetic, sensual, soulful.
+                        <br>
+                        She graduated in Contemporary Dance BA (Hons)
+                        at the Conservatoire for Dance and Drama.</p>
+                </div>
+            </div>
+
+            <div class="instructor-box instructor-4">
+                <div class="instructor-img">
+                    <img src="assets/images/lizzie.jpg" alt="Afro teacher profile image">
+                </div>
+                <div class="instructor-specifics">
+                    <h3>Lizzie McGregor</h3>
+                    <p>Afro</p>
+                </div>
+                <div class="instructor-details">
+                    <p>Lizzie discovered Afro dance during her path
+                        of rediscovering her origins: it was love at first sight. 
+                        <br>
+                        She gained her Diploma in Dance Teaching at the IDTA and has
+                        been with us for 2 years now. Rest assured that you’ll break 
+                        a sweat during her classes!</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="buttons-section">
+            <button class="btn-cream-bg classes-btn">See classes timetable</button>
+            <button>Book a class now!</button>
+        </section>
+
+        <footer>
+            <!-- Address and contacts block -->
+            <div class="footer-flex-item">
+                <h2>Address:</h2>
+                <p>Castlehill, Edinburgh EH1 2NG</p>
+                <br>
+                <h2>Contacts:</h2>
+                <p>+44 7769382628</p>
+                <a href="mailto: bimdancestudio@gmail.com">bimdancestudio@gmail.com</a>
+            </div>
+
+            <!-- Opening times block -->
+            <div class="footer-flex-item">
+                <h2>Opening times:</h2>
+                <br>
+                <p>MONDAY - FRIDAY</p>
+                <br>
+                <p> 8am - 8pm</p>
+            </div>
+
+            <!-- Social media links -->
+            <div class="footer-flex-item">
+                <ul id="social-container">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"> <i
+                                class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                            aria-label="Visit YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Font awesome script -->
+        <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
+
+        <!-- dev.to script for hamburger menu -->
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+            const navMenu = document.querySelector(".nav-flex-container");
+
+            hamburger.addEventListener("click", mobileMenu);
+
+            function mobileMenu() {
+                hamburger.classList.toggle("active");
+                navMenu.classList.toggle("active");
+            }
+            // To close the hamburger menu when we click a link
+
+            const navLink = document.querySelectorAll(".nav-link");
+
+            navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+            function closeMenu() {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+            }
+        </script>
+</body>
+
+</html>

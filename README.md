@@ -21,6 +21,9 @@ Website for a dance studio based in Edinburgh
         - [Hero Section](#hero-section)
         - [Classes Section](#classes-section)
         - [Instructors Section](#meet-the-team-section)
+        - [Pricing Section](#pricing-section)
+        - [Location Section](#location)
+        - [Footer](#footer)
 4. [TESTING](#4-testing)
 5. [CREDITS](#5-credits)
 6. [DEPLOYMENT](#6-deployment)
@@ -102,7 +105,7 @@ On tablets views the header is displayed in two different rows, with the logo at
 
 ![Smartphone header](docs/docs-images/smartphone-header.png) ![Smartphone header active](docs/docs-images/smartphone-header-active.png)
 
-In smaller screen sizes the header goes back to display the logo on the left, with the difference that now the navigation bar has been replaced by an hamburger menu.
+In smaller screen sizes the header goes back to display the logo on the left, with the difference that now the navigation bar has been replaced by an hamburger menu. The header is also now positioned fixed so that if the user doesn't close the hamburger menu and keeps scrolling the page, there's no breakage since the hamburger menu opens in a fixed window.
 
 - #### HERO SECTION
 
@@ -121,6 +124,25 @@ After a brief introduction, the classes section under the hero displays a grid o
 This section of the homepage reassures the user about the studio reliability. It also provides a link to the "Instructors" page of the website.
 
 ![Instructors section](docs/docs-images/meet-the-team.png)
+
+- #### PRICING SECTION
+
+The pricing section contains a further link to the "classes & prices" page of the website. The user is comforted by the presence of transparency about pricing.
+
+![Pricing section](docs/docs-images/pricing-section.png)
+
+- #### LOCATION
+
+A Google Maps Location has been embed through iframes, showing the users the dance studio location that resizes based on the screen size. 
+
+![Location section](docs/docs-images/location-section.png)
+
+- #### FOOTER
+
+The footer is consistent in all of the pages and it shows the adress and contacts for the studio, opening times, and social media links that open in a new tab for easy navigation.
+It is fully responsive, with social media icons flexed on a row of their own when viewed from medium and small devices.
+
+![Footer](docs/docs-images/footer.png)
 
 ## 4. TESTING
 

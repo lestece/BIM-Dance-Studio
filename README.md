@@ -16,6 +16,8 @@ Website for a dance studio based in Edinburgh
         - [Images](#images)
         - [Mockups](#mockups)
 3. [FEATURES](#3-features) 
+    - [Existing features](#existing-features)
+        - [Header](#header)
 4. [TESTING](#4-testing)
 5. [CREDITS](#5-credits)
 6. [DEPLOYMENT](#6-deployment)
@@ -60,7 +62,7 @@ I wanted to keep a good contrast between text and background, so that most of th
 #2C343C (dark-blue color) has been mostly used for the nav bar, hero section (homepage, with a white text color for contrast), footer background and some buttons background colors. 
 #c5c0b9 (creamy color) has been mainly used as a background color for some sections, buttons and headings.
 
-![Color palette](docs/palette.png)
+![Color palette](docs/docs-images/palette.png)
 - #### ICONS
 Icons were needed for the social media links and have been taken from [FontAwesome](https://fontawesome.com/).
 
@@ -68,6 +70,7 @@ Icons were needed for the social media links and have been taken from [FontAweso
 The chosen fonts fo the website are:
 1. __Lora__, which is 
 > a well-balanced contemporary serif with roots in calligraphy.
+
 It's a modern and artistic font, mostly used for headings and buttons. It reverts to serif if not available.
 2. __Nunito__ , a simple and easily readable sans serif, mainly used for the paragraphs, that pairs well with Lora.
 Sans-serif is the font fallback.
@@ -80,6 +83,24 @@ After all of the design details were decided and the website content composed, I
 [See mockups here](docs/mockups)
 
 ## 3. FEATURES
+### EXISTING FEATURES
+- #### HEADER
+
+The header appears at the top of all of the website pages and stays consistent and responsive across all of them.
+It features an absolute positioning so that it stands on top of the hero sections and has a transparent background for the hero images to come trough.
+It is a flex container and flexbox properties have been used to achieve the different displays based on screen size.
+
+![Desktop header](docs/docs-images/header.png)
+
+On large screen sizes the logo is positioned on the left of the header, while the navigation bar is on the right.
+![Tablet header](docs/docs-images/tablet-header.png)
+
+On tablets views the header is displayed in two different rows, with the logo at the top and the nav bar below it (flex direction changed to column).
+![Smartphone header](docs/docs-images/smartphone-header.png) ![Smartphone header active](docs/docs-images/smartphone-header-active.png)
+
+In smaller screen sizes the header goes back to display the logo on the left, with the difference that now the navigation bar has been replaced by an hamburger menu.
+
+
 
 ## 4. TESTING
 

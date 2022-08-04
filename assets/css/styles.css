@@ -387,6 +387,36 @@ footer a {
 .hero-instructors{
     background: url(../images/instructors-img.jpg) no-repeat 40% 37%;
     background-size: 100%;
+    max-height: 60vh;
+ }
+
+ #instructors-hero-text{
+    min-width: fit-content;
+    font-family: 'Lora', serif;
+ }
+
+ .instructor-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 2rem;
+ }
+
+ .instructor-2,
+ .instructor-4{
+    flex-direction: row-reverse;
+    background-color: rgb(197, 192, 185);
+ }
+
+ .instructor-specifics h3{
+    font-family: 'Lora', serif;
+    font-size: 3.5rem;
+ }
+
+ .instructor-details p{
+    max-width: 50vw;
+    margin-top: 2rem;
  }
 
 
@@ -396,11 +426,16 @@ footer a {
     border-radius: 50%;
 }
 
+.buttons-section{
+    padding: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-
-
-
-
+.buttons-section .classes-btn{
+    margin-top: 0;
+}
 
 
 

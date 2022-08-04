@@ -136,7 +136,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-.hero-content button {
+.book-btn {
     margin-top: 2rem;
     max-width: 25%;
 
@@ -146,7 +146,7 @@ nav a:hover {
     align-self: center;
 }
 
-.hero-content button:hover {
+.book-btn:hover {
     background-color: rgb(197, 192, 185);
     color: rgba(44, 52, 60, .9);
     box-shadow: 0 12px 16px 0 rgba(44, 52, 60, 0.24), 0 17px 50px 0 rgba(44, 52, 60, 0.19);
@@ -427,13 +427,14 @@ footer a {
 }
 
 .buttons-section{
-    padding: 6rem;
+    margin: 6rem auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
-.buttons-section .classes-btn{
+.buttons-section button{
     margin-top: 0;
 }
 
@@ -477,6 +478,21 @@ footer a {
 
     .hero-content button {
         min-width: 40%;
+    }
+
+    /* instructors page */
+    .instructors-hero-content{
+        max-height: 60vh;
+        font-size: 1rem;
+    }
+
+    .instructor-img img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .instructor-specifics h3{
+        font-size: 2rem;
     }
 }
 
@@ -544,6 +560,15 @@ footer a {
         display: flex;
         justify-content: space-around;
     }
+
+    /* Instructors page */
+    .buttons-section{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
 }
 
 /* small/extra small devices (phones and large phones, 666px and down) */
@@ -675,5 +700,20 @@ footer a {
 
     .footer-flex-item:nth-child(3) {
         align-self: stretch;
+    }
+
+    /* instructors page */
+
+    .instructor-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .instructor-specifics{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

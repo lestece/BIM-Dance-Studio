@@ -440,9 +440,73 @@ footer a {
 }
 
 /* Classes & Pricing styles */
+
+#classes-and-prices-main{
+    text-align: center;
+}
+
 .hero-classes{
     background: url(../images/classes-img.jpg) no-repeat 40% 49%;
  }
+
+ #legend-block{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 6rem;
+ }
+
+ .level-legend{
+    text-align: center;
+ }
+
+ .color-legend{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: ;
+ }
+
+ .beg-legend{
+    background-color: rgb(197, 192, 185);
+ }
+
+ .int-legend{
+    background-color: rgb(44, 52, 60);
+ }
+
+ table{
+    margin: 0 auto;
+    border-spacing: 0;
+ }
+
+ table *{
+    border: 1px solid black;
+ }
+
+ th{
+    font-family: 'Lora', serif;
+ }
+
+ th:nth-of-type(1){
+    border: none;
+ }
+
+ td{
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.5rem;
+ }
+
+ .beg-bg{
+    background-color: rgb(197, 192, 185);
+ }
+
+ .int-bg{
+    background-color: rgb(44, 52, 60);
+    color: rgb(197, 192, 185);
+ }
+
 
 
 

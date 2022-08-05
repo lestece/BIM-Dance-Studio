@@ -386,6 +386,9 @@ footer a {
 
 .hero-instructors{
     background: url(../images/instructors-img.jpg) no-repeat 40% 37%;
+ }
+
+ .hero-shortened{
     background-size: 100%;
     max-height: 60vh;
  }
@@ -436,7 +439,10 @@ footer a {
     margin-top: 0;
 }
 
-
+/* Classes & Pricing styles */
+.hero-classes{
+    background: url(../images/classes-img.jpg) no-repeat 40% 49%;
+ }
 
 
 

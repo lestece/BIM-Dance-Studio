@@ -384,50 +384,50 @@ footer a {
 
 /* Styles for instuctors.html */
 
-.hero-instructors{
+.hero-instructors {
     background: url(../images/instructors-img.jpg) no-repeat 40% 37%;
- }
+}
 
- .hero-shortened{
+.hero-shortened {
     background-size: 100%;
     max-height: 60vh;
- }
+}
 
- #instructors-hero-text{
+#instructors-hero-text {
     min-width: fit-content;
     font-family: 'Lora', serif;
- }
+}
 
- .instructor-box{
+.instructor-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 4rem 2rem;
- }
+}
 
- .instructor-2,
- .instructor-4{
+.instructor-2,
+.instructor-4 {
     flex-direction: row-reverse;
     background-color: rgb(197, 192, 185);
- }
+}
 
- .instructor-specifics h3{
+.instructor-specifics h3 {
     font-family: 'Lora', serif;
     font-size: 3.5rem;
- }
+}
 
- .instructor-details p{
+.instructor-details p {
     max-width: 50vw;
     margin-top: 2rem;
- }
+}
 
 
-.instructor-box img{
+.instructor-box img {
     border-radius: 50%;
 }
 
-.buttons-section{
+.buttons-section {
     margin: 6rem auto;
     display: flex;
     flex-wrap: wrap;
@@ -435,77 +435,98 @@ footer a {
     align-items: center;
 }
 
-.buttons-section button{
+.buttons-section button {
     margin-top: 0;
 }
 
 /* Classes & Pricing styles */
 
-#classes-and-prices-main{
+#classes-and-prices-main {
     text-align: center;
 }
 
-.hero-classes{
+.hero-classes {
     background: url(../images/classes-img.jpg) no-repeat 40% 49%;
- }
+}
 
- #legend-block{
+#legend-block {
     display: flex;
     justify-content: space-between;
     margin: 2rem 6rem;
- }
+}
 
- .level-legend{
+.level-legend {
     text-align: center;
- }
+}
 
- .color-legend{
+.color-legend {
     width: 30px;
     height: 30px;
     border: 1px solid black;
     display: inline-block;
-    background-color: ;
- }
+}
 
- .beg-legend{
+.beg-legend {
     background-color: rgb(197, 192, 185);
- }
+}
 
- .int-legend{
+.int-legend {
     background-color: rgb(44, 52, 60);
- }
+}
 
- table{
-    margin: 0 auto;
+#small-screen-classes {
+    display: none;
+}
+
+table {
+    margin: 4rem auto;
     border-spacing: 0;
- }
+}
 
- table *{
+table * {
     border: 1px solid black;
- }
+}
 
- th{
+th {
     font-family: 'Lora', serif;
- }
+}
 
- th:nth-of-type(1){
+th:nth-of-type(1) {
     border: none;
- }
+}
 
- td{
+td {
     text-transform: uppercase;
     font-size: 1rem;
     padding: 0.5rem;
- }
+}
 
- .beg-bg{
+.beg-bg {
     background-color: rgb(197, 192, 185);
- }
+}
 
- .int-bg{
+.int-bg {
     background-color: rgb(44, 52, 60);
     color: rgb(197, 192, 185);
- }
+}
+
+.prices {
+    margin: 4rem auto;
+    width: 70vw;
+}
+
+.prices ul {
+    list-style-type: circle;
+    margin: 3rem 0;
+}
+
+.prices li {
+    margin-top: 2rem;
+}
+
+
+
+
 
 
 
@@ -549,18 +570,22 @@ footer a {
     }
 
     /* instructors page */
-    .instructors-hero-content{
+    .medium-device-hero-content {
         max-height: 60vh;
         font-size: 1rem;
     }
 
-    .instructor-img img{
+    .instructor-img img {
         width: 200px;
         height: 200px;
     }
 
-    .instructor-specifics h3{
+    .instructor-specifics h3 {
         font-size: 2rem;
+    }
+
+    td {
+        font-size: 0.8rem;
     }
 }
 
@@ -584,7 +609,7 @@ footer a {
 
     #ballet-box .genre-label,
     #jazz-box .genre-label {
-        top:0;
+        top: 0;
     }
 
     #jazz-box .genre-label p {
@@ -630,14 +655,28 @@ footer a {
     }
 
     /* Instructors page */
-    .buttons-section{
+    .buttons-section {
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
 
+    /* Classes and pricing page */
+    #desktop-classes {
+        display: none;
+    }
 
+    #small-screen-classes {
+        display: block;
+    }
+
+    #small-screen-classes table {
+        width: -webkit-fill-available;
+        margin: 2rem;
+    }
 }
+
+
 
 /* small/extra small devices (phones and large phones, 666px and down) */
 @media only screen and (max-width: 666px) {
@@ -688,7 +727,7 @@ footer a {
         margin: 1rem 2.5rem;
     }
 
-    .nav-flex-item .active{
+    .nav-flex-item .active {
         text-decoration: underline;
     }
 
@@ -779,9 +818,16 @@ footer a {
         gap: 1rem;
     }
 
-    .instructor-specifics{
+    .instructor-specifics {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    /* classes and pricing page */
+
+    #legend-block{
+        display: flex;
+        flex-direction: column;
     }
 }

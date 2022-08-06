@@ -74,8 +74,8 @@ header * {
 }
 
 .active {
-    color: rgb(197, 192, 185);
-    box-shadow: 0 12px 16px 0 rgba(197, 192, 185, 0.24), 0 17px 50px 0 rgba(197, 192, 185, 0.19);
+    padding: 0.2rem;
+    box-shadow: rgba(255, 255, 255, 0.2) -3px 3px, rgba(255, 255, 255, 0.1) -6px 6px;
 }
 
 nav a:hover {
@@ -138,7 +138,6 @@ nav a:hover {
 
 .book-btn {
     margin-top: 2rem;
-    max-width: 25%;
 
     background-color: rgba(44, 52, 60, .9);
     color: rgb(197, 192, 185);
@@ -262,7 +261,7 @@ nav a:hover {
 /* Meet the team section styles */
 #meet-the-team {
     background-color: rgb(197, 192, 185);
-    margin-top: 8rem;
+    margin-top: 6.5rem;
     padding: 4rem;
     /* flexbox to position content and button inside of the section */
     display: flex;
@@ -293,6 +292,8 @@ nav a:hover {
 #pricing {
     text-align: center;
     margin-top: 6rem;
+    border-bottom: 1px solid rgb(197, 192, 185);
+    padding-bottom: 4rem;
 }
 
 #pricing h2 {
@@ -727,9 +728,6 @@ td {
         margin: 1rem 2.5rem;
     }
 
-    .nav-flex-item .active {
-        text-decoration: underline;
-    }
 
     .nav-flex-item a {
         color: rgb(44, 52, 60);
@@ -780,9 +778,17 @@ td {
         font-size: 1.4rem;
     }
 
+    .classes-btn{
+        margin-top: 1.5rem;
+    }
+
     #meet-the-team {
         margin-top: 3rem;
         padding: 0.5rem 0;
+    }
+
+    #meet-the-team-btn{
+        margin-bottom: 0.5rem;
     }
 
     #pricing {
@@ -796,6 +802,10 @@ td {
 
     #pricing button {
         margin-top: 2rem;
+    }
+
+    #location{
+        margin-top: 3rem;
     }
 
     footer {

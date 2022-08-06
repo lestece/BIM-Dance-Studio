@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dance studio offering adult dance classes in Edinburgh">
+    <meta name="keywords" content="dance studio, dance classes, dance, scotland, edinburgh">
+    <meta name="author" content="Celeste Loi">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>BIM Dance Studio</title>
+</head>
+
+<body>
+    <!-- Header containing logo and nav-bar -->
+    <header>
+        <!-- Logo -->
+        <div id="bim-logo">
+            <a href="index.html">
+                <h1>BIM</h1>
+                <hr>
+                <p>dance studio</p>
+            </a>
+        </div>
+        <!-- Nav bar -->
+        <nav>
+            <ul class="nav-flex-container">
+                <li class="nav-flex-item"> <a href="index.html" aria-label="Link to Homepage">Home</a>
+                </li>
+                <li class="nav-flex-item"> <a href="instructors.html"
+                        aria-label="Link to the Instructors page">Instructors</a></li>
+                <li class="nav-flex-item"> <a href="classes-and-prices.html"
+                        aria-label="Link to Classes and Pricing page">Classes &
+                        Prices</a></li>
+                <li class="nav-flex-item"> <a href="book-now.html" class="active"
+                        aria-label="Link to to the Booking page">Book now!</a></li>
+            </ul>
+
+            <!-- Hamburger menu for smartphones: adapted on the tutorial followed on https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="booking-form">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="booking-form">
+                <h2>Book a class now!</h2>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="first_name" required class="text-input">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="last_name" required class="text-input">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email_address" required class="text-input">
+                <label for="phone">Telephone:</label>
+                <input type="tel" id="phone" name="phone" pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$
+                ">
+
+                <label for="date">Select a date:</label>
+                <input type="date" id="date" name="class-date" value="2022-08-06" min="2022-08-01" max="2022-12-31">
+
+                <label for="class-time">Select a time:</label>
+                <select id="class-time" name="class-time">
+                    <option value="8-9.30">8am - 9.30am</option>
+                    <option value="10-11.30">10am - 11.30am</option>
+                    <option value="12-1.30">12pm - 1.30pm</option>
+                    <option value="2-3.30">2pm - 3.30pm</option>
+                    <option value="4-5.30">4pm - 5.30pm</option>
+                    <option value="6-7.30">6pm - 7.30pm</option>
+                    <option value="8-9.30">8pm - 9.30pm</option>
+                </select>
+
+                <fieldset>
+                    <legend>  What genre are you interested in? </legend>
+                    <label for="ballet">Ballet</label>
+                    <input type="radio" id="ballet" name="class-genre" value="ballet" required>
+                    <label for="jazz">Jazz</label>
+                    <input type="radio" id="jazz" name="class-genre" value="jazz">
+                    <label for="contemporary">Contemporary</label>
+                    <input type="radio" id="contemporary" name="class-genre" value="contemporary">
+                    <label for="afro">Afro</label>
+                    <input type="radio" id="afro" name="class-genre" value="afro">
+                </fieldset>
+
+                <fieldset>
+                    <legend> What payment option are you considering? </legend>
+                    <input type="checkbox" id="drop-in" name="drop-in" value="drop-in">
+                    <label for="drop-in">Drop-in</label>
+                    <input type="checkbox" id="10-class-pass" name="10-class-pass" value="10-class-pass">
+                    <label for="10-class-pass">10-class-pass</label>
+                    <input type="checkbox" id="16-weeks" name="16-weeks" value="16-weeks">
+                    <label for="16-weeks">16-weeks course</label>
+                </fieldset>
+
+                <button class="book-btn">Book now!</button>
+                <input type="reset" value="Reset form">
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <!-- Address and contacts block -->
+        <div class="footer-flex-item">
+            <h2>Address:</h2>
+            <p>Castlehill, Edinburgh EH1 2NG</p>
+            <br>
+            <h2>Contacts:</h2>
+            <p>+44 7769382628</p>
+            <a href="mailto: bimdancestudio@gmail.com">bimdancestudio@gmail.com</a>
+        </div>
+
+        <!-- Opening times block -->
+        <div class="footer-flex-item">
+            <h2>Opening times:</h2>
+            <br>
+            <p>MONDAY - FRIDAY</p>
+            <br>
+            <p> 8am - 8pm</p>
+        </div>
+
+        <!-- Social media links -->
+        <div class="footer-flex-item">
+            <ul id="social-container">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
+
+    <!-- dev.to script for hamburger menu -->
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-flex-container");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+        // To close the hamburger menu when we click a link
+
+        const navLink = document.querySelectorAll(".nav-link");
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        function closeMenu() {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }
+    </script>
+</body>
+
+</html>

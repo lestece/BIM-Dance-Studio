@@ -15,7 +15,8 @@ body {
 }
 
 /* generic rule for all buttons */
-button {
+button,
+#reset-btn {
     font-family: 'Lora', serif;
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -565,6 +566,84 @@ td {
     margin-bottom: 3rem;
 }
 
+/* Booking page styles */
+
+
+#booking-main{
+    background: url(../images/booking-background.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 25vh;
+}
+
+#booking-form{
+    max-width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(44, 52, 60, .8);
+    color: rgb(255, 255, 255);
+}
+
+#booking-form h2,
+#booking-form legend {
+    font-family: 'Lora', serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+label,
+fieldset {
+    font-size: 1.5rem;
+}
+
+fieldset legend {
+    margin-bottom: 1rem;
+}
+
+#grid-inputs{
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
+    justify-content: flex-start;
+
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#date-flex,
+#class-time-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+#date,
+#class-time{
+    width: 20%;
+    height: 2rem;
+    margin: 0.4rem auto;
+}
+
+
+#flex-form-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#flex-form-btns button,
+#flex-form-btns input{
+    margin: 2rem auto 4rem;
+}
 
 
 

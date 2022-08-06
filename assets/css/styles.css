@@ -394,9 +394,11 @@ footer a {
     max-height: 60vh;
 }
 
-#instructors-hero-text {
+#instructors-hero-text,
+#classes-hero-text {
     min-width: fit-content;
     font-family: 'Lora', serif;
+    font-size: 1rem;
 }
 
 .instructor-box {
@@ -420,9 +422,14 @@ footer a {
 
 .instructor-details p {
     max-width: 50vw;
-    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px dotted rgb(197, 192, 185);
 }
 
+.instructor-2 p,
+.instructor-4 p{
+    border-top: 1px dotted black;
+}
 
 .instructor-box img {
     border-radius: 50%;
@@ -563,7 +570,8 @@ td {
 
     /* to contrast overlapping of hero content with header */
     .hero-content-text {
-        margin-top: 40%;
+        margin-top:45%;
+        min-width: 80vw;
     }
 
     .hero-content button {
@@ -656,6 +664,7 @@ td {
     }
 
     /* Instructors page */
+
     .buttons-section {
         display: flex;
         flex-direction: column;
@@ -770,7 +779,8 @@ td {
     #genres-taught p {
         line-height: 2rem;
         min-width: 95vw;
-        margin: 0 1rem;
+        margin: 0 auto;
+        padding: 0 1rem;
     }
 
     #genres-taught h2 {
@@ -784,7 +794,7 @@ td {
 
     #meet-the-team {
         margin-top: 3rem;
-        padding: 0.5rem 0;
+        padding: 2rem 0;
     }
 
     #meet-the-team-btn{
@@ -832,6 +842,10 @@ td {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .instructor-details p{
+        min-width: 80vw;
     }
 
     /* classes and pricing page */

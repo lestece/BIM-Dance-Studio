@@ -427,7 +427,7 @@ footer a {
 }
 
 .instructor-2 p,
-.instructor-4 p{
+.instructor-4 p {
     border-top: 1px dotted black;
 }
 
@@ -457,14 +457,23 @@ footer a {
     background: url(../images/classes-img.jpg) no-repeat 40% 49%;
 }
 
+.classes-timetable {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgb(197, 192, 185);
+}
+
 #legend-block {
     display: flex;
     justify-content: space-between;
-    margin: 2rem 6rem;
+    margin: 6rem;
 }
 
 .level-legend {
     text-align: center;
+}
+
+.level-legend h3 {
+    font-size: 1rem;
 }
 
 .color-legend {
@@ -524,16 +533,37 @@ td {
 }
 
 .prices ul {
-    list-style-type: circle;
-    margin: 3rem 0;
+    list-style-type: "-";
+    margin: 3rem 0 6rem;
 }
 
 .prices li {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
+.prices h3 {
+    font-family: 'Lora', serif;
+}
 
+.prices p {
+    font-size: 1.8rem;
+}
 
+.price-style {
+    font-style: italic;
+    background-color: rgb(197, 192, 185);
+    border-radius: 50%;
+}
+
+.parenthesis-style {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.discount {
+    font-style: italic;
+    margin-bottom: 3rem;
+}
 
 
 
@@ -570,7 +600,7 @@ td {
 
     /* to contrast overlapping of hero content with header */
     .hero-content-text {
-        margin-top:45%;
+        margin-top: 45%;
         min-width: 80vw;
     }
 
@@ -672,6 +702,11 @@ td {
     }
 
     /* Classes and pricing page */
+
+    #legend-block {
+        margin-bottom: 1rem;
+    }
+
     #desktop-classes {
         display: none;
     }
@@ -683,6 +718,11 @@ td {
     #small-screen-classes table {
         width: -webkit-fill-available;
         margin: 2rem;
+    }
+
+    #small-screen-classes th {
+        border: 1px solid black;
+        padding: 1rem;
     }
 }
 
@@ -788,7 +828,7 @@ td {
         font-size: 1.4rem;
     }
 
-    .classes-btn{
+    .classes-btn {
         margin-top: 1.5rem;
     }
 
@@ -797,7 +837,7 @@ td {
         padding: 2rem 0;
     }
 
-    #meet-the-team-btn{
+    #meet-the-team-btn {
         margin-bottom: 0.5rem;
     }
 
@@ -814,7 +854,7 @@ td {
         margin-top: 2rem;
     }
 
-    #location{
+    #location {
         margin-top: 3rem;
     }
 
@@ -844,14 +884,21 @@ td {
         align-items: center;
     }
 
-    .instructor-details p{
+    .instructor-details p {
         min-width: 80vw;
     }
 
     /* classes and pricing page */
 
-    #legend-block{
+    .classes-timetable h2 {
+        font-size: 1.8rem;
+    }
+
+    #legend-block {
         display: flex;
         flex-direction: column;
+        gap: 1rem;
+        margin-top: 2rem;
     }
+
 }

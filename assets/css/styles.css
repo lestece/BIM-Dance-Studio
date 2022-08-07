@@ -568,6 +568,9 @@ td {
 
 /* Booking page styles */
 
+#booking-header{
+    background-color: rgba(44, 52, 60, .9);
+}
 
 #booking-main{
     background: url(../images/booking-background.jpg) no-repeat center center;
@@ -579,7 +582,7 @@ td {
     max-width: 80vw;
     text-align: center;
     margin: 0 auto;
-    background-color: rgba(44, 52, 60, .8);
+    background-color: rgba(44, 52, 60, .9);
     color: rgb(255, 255, 255);
 }
 
@@ -643,9 +646,25 @@ fieldset legend {
 #flex-form-btns button,
 #flex-form-btns input{
     margin: 2rem auto 4rem;
+    border-radius: 0;
 }
 
+input,
+#class-time{
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
 
+#genre-radios input{
+  margin-right: 1.5rem;
+}
+
+#payment-checkboxes input{
+    margin-left: 1.5rem;
+}
 
 
 

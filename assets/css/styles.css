@@ -630,7 +630,6 @@ fieldset legend {
 
 #date,
 #class-time{
-    width: 20%;
     height: 2rem;
     margin: 0.4rem auto;
 }
@@ -724,6 +723,22 @@ input,
     td {
         font-size: 0.8rem;
     }
+
+    /* Booking page */
+
+    form{
+        margin-top: 15vh;
+    }
+
+    #grid-inputs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-item{
+        justify-content: space-between;
+    }
+
 }
 
 /* small devices (portrait tablets and large phones, 768px and down) */

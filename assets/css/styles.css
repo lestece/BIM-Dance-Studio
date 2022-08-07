@@ -1014,4 +1014,24 @@ input,
         margin-top: 2rem;
     }
 
+    /* Booking page */
+
+    form{
+        margin-top: 0;
+    }
+
+    fieldset{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #genre-radios label,
+    #payment-checkboxes label{
+        justify-self: flex-start;
+    }
+
+    #genre-radios label{
+        margin-left: 5rem;
+    }
+
 }

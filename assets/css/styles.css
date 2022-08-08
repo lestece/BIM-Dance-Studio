@@ -610,6 +610,10 @@ td {
     font-family: 'Nunito', sans-serif;
 }
 
+.booking-confirmation-btns{
+    margin-top: 6rem;
+}
+
 form {
     display: flex;
     flex-direction: column;

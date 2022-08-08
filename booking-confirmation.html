@@ -48,76 +48,14 @@
         </nav>
     </header>
 
-    <main id="booking-main">
-        <section id="booking-form">
-            <form method="GET" action="booking-confirmation.html" class="booking-form">
-                <h2>Book a class now!</h2>
-                <div id="grid-inputs">
-                    <div class="grid-item">
-                        <label for="fname">First Name:</label>
-                        <input type="text" id="fname" name="first_name" required class="text-input">
-                    </div>
-                    <div class="grid-item">
-                        <label for="lname">Last Name:</label>
-                        <input type="text" id="lname" name="last_name" required class="text-input">
-                    </div>
-                    <div class="grid-item">
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="email_address" required class="text-input">
-                    </div>
-                    <div class="grid-item">
-                        <label for="phone">Telephone:</label>
-                        <input type="tel" id="phone" name="phone" pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$">
-                    </div>
-
-                </div>
-                <div id="date-flex">
-                    <label for="date">Select a date:</label>
-                    <input type="date" id="date" name="class-date" value="2022-08-06" min="2022-08-01" max="2022-12-31">
-                </div>
-                
-                <div id="class-time-flex">
-                    <label for="class-time">Select a time:</label>
-                <select id="class-time" name="class-time">
-                    <option value="8-9.30">8am - 9.30am</option>
-                    <option value="10-11.30">10am - 11.30am</option>
-                    <option value="12-1.30">12pm - 1.30pm</option>
-                    <option value="2-3.30">2pm - 3.30pm</option>
-                    <option value="4-5.30">4pm - 5.30pm</option>
-                    <option value="6-7.30">6pm - 7.30pm</option>
-                    <option value="8-9.30">8pm - 9.30pm</option>
-                </select>
-
-                </div>
-                
-                <fieldset id="genre-radios">
-                    <legend> What genre are you interested in? </legend>
-                    <label for="ballet">Ballet</label>
-                    <input type="radio" id="ballet" name="class-genre" value="ballet" required>
-                    <label for="jazz">Jazz</label>
-                    <input type="radio" id="jazz" name="class-genre" value="jazz">
-                    <label for="contemporary">Contemporary</label>
-                    <input type="radio" id="contemporary" name="class-genre" value="contemporary">
-                    <label for="afro">Afro</label>
-                    <input type="radio" id="afro" name="class-genre" value="afro">
-                </fieldset>
-
-                <fieldset id="payment-checkboxes">
-                    <legend> What payment option are you considering? </legend>
-                    <input type="checkbox" id="drop-in" name="payment-option" value="drop-in">
-                    <label for="drop-in">Drop-in</label>
-                    <input type="checkbox" id="10-class-pass" name="payment-option" value="10-class-pass">
-                    <label for="10-class-pass">10-class-pass</label>
-                    <input type="checkbox" id="16-weeks" name="payment-option" value="16-weeks">
-                    <label for="16-weeks">16-weeks course</label>
-                </fieldset>
-
-                <div id="flex-form-btns">
-                    <button class="book-btn">Book now!</button>
-                <input type="reset" value="Reset form" class="btn-cream-bg" id="reset-btn">
-                </div>
-
-            </form>
+    <main id="booking-main" class="booking-confirmation-main">
+        <section id="booking-confirmation">
+            <h2>Thank you for completing the form!</h2>
+            <p>Your request has been submitted correctly and you'll be soon contacted by a member of our staff
+                to confirm your booking.
+                <br> <br>
+                We look forward to seeing you at BIM Dance Studio!
+            </p>
 
         </section>
     </main>

@@ -568,17 +568,17 @@ td {
 
 /* Booking page styles */
 
-#booking-header{
+#booking-header {
     background-color: rgba(44, 52, 60, .9);
 }
 
-#booking-main{
+#booking-main {
     background: url(../images/booking-background.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 25vh;
 }
 
-#booking-form{
+#booking-form {
     max-width: 80vw;
     text-align: center;
     margin: 0 auto;
@@ -591,7 +591,11 @@ td {
     font-family: 'Lora', serif;
 }
 
-form{
+#booking-form h2{
+    margin-top: 2rem;
+}
+
+form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -607,7 +611,7 @@ fieldset legend {
     margin-bottom: 1rem;
 }
 
-#grid-inputs{
+#grid-inputs {
     margin: 3rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -617,25 +621,25 @@ fieldset legend {
 }
 
 .grid-item {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 #date-flex,
-#class-time-flex{
+#class-time-flex {
     display: flex;
     flex-direction: column;
 }
 
 #date,
-#class-time{
+#class-time {
     height: 2rem;
     margin: 0.4rem auto;
 }
 
 
-#flex-form-btns{
+#flex-form-btns {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -643,13 +647,22 @@ fieldset legend {
 }
 
 #flex-form-btns button,
-#flex-form-btns input{
+#flex-form-btns input {
     margin: 2rem auto 4rem;
     border-radius: 0;
 }
 
+#flex-form-btns button{
+    font-size: 2rem;
+}
+
+#flex-form-btns input{
+    font-size: 1rem;
+}
+
+
 input,
-#class-time{
+#class-time {
     border-radius: 20px;
     text-align: center;
     font-family: 'Nunito', sans-serif;
@@ -657,11 +670,11 @@ input,
     font-size: 1.2rem;
 }
 
-#genre-radios input{
-  margin-right: 1.5rem;
+#genre-radios input {
+    margin-right: 1.5rem;
 }
 
-#payment-checkboxes input{
+#payment-checkboxes input {
     margin-left: 1.5rem;
 }
 
@@ -726,16 +739,16 @@ input,
 
     /* Booking page */
 
-    form{
+    form {
         margin-top: 15vh;
     }
 
-    #grid-inputs{
+    #grid-inputs {
         display: flex;
         flex-direction: column;
     }
 
-    .grid-item{
+    .grid-item {
         justify-content: space-between;
     }
 
@@ -1016,55 +1029,69 @@ input,
 
     /* Booking page */
 
-    #booking-main{
+    #booking-main {
         padding-top: 25vh;
     }
 
-    form{
+    form {
         margin-top: 0;
     }
 
-    form h2{
+    form h2 {
         font-size: 1.5rem;
         margin-top: 1rem;
     }
 
-    #grid-inputs{
+    #grid-inputs {
         gap: 3rem;
         margin: 0 2rem;
     }
 
-   .grid-item{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-   }
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 
-    fieldset{
+    fieldset {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
-    fieldset legend{
+    fieldset legend {
         font-size: 1.5rem;
         max-width: 80%;
         margin-bottom: 1.5rem;
     }
 
     #genre-radios label,
-    #payment-checkboxes label{
+    #payment-checkboxes label {
         justify-self: flex-start;
     }
 
-    #genre-radios label{
+    #genre-radios label {
         margin-left: 5rem;
     }
 
     #flex-form-btns button,
-    #flex-form-btns input{
+    #flex-form-btns input {
         padding: 0.5rem;
         font-size: 1.3rem;
+    }
+
+    label,
+    fieldset {
+        font-size: 1rem;
+    }
+
+    #flex-form-btns{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #flex-form-btns .book-btn{
+        font-size: 2rem;
     }
 
 }

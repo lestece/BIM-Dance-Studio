@@ -626,6 +626,10 @@ fieldset legend {
     gap: 0.5rem;
 }
 
+.grid-item label{
+    margin-right: 1rem;
+}
+
 #date-flex,
 #class-time-flex {
     display: flex;
@@ -660,6 +664,10 @@ fieldset legend {
     font-size: 1rem;
 }
 
+#email{
+    font-size: 0.8rem;
+    width: 230px;
+}
 
 input,
 #class-time {
@@ -1092,6 +1100,11 @@ input,
 
     #flex-form-btns .book-btn{
         font-size: 2rem;
+    }
+
+    #email{
+        font-size: 1.2rem;
+        width: auto;
     }
 
 }

@@ -109,7 +109,7 @@ nav a:hover {
 
 
 .hero-content {
-    background-color: rgba(44, 52, 60, .4);
+    background-color: rgba(44, 52, 60, .6);
     background-size: 100%;
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
@@ -126,7 +126,7 @@ nav a:hover {
 
 .hero-content-text {
     max-width: 60%;
-    background-color: rgba(44, 52, 60, .6);
+    background-color: rgba(44, 52, 60, .9);
     border: 1px solid white;
     padding: 2rem;
     align-self: center;
@@ -481,7 +481,7 @@ footer a {
     background: url(../images/classes-img.jpg) no-repeat 40% 49%;
 }
 
-.classes-timetable {
+#classes-timetable {
     padding-bottom: 3rem;
     border-bottom: 1px solid rgb(197, 192, 185);
 }
@@ -551,25 +551,25 @@ td {
     color: rgb(197, 192, 185);
 }
 
-.prices {
+#prices {
     margin: 4rem auto;
     width: 70vw;
 }
 
-.prices ul {
+#prices ul {
     list-style-type: "-";
     margin: 3rem 0 6rem;
 }
 
-.prices li {
+#prices li {
     margin-top: 4rem;
 }
 
-.prices h3 {
+#prices h3 {
     font-family: 'Lora', serif;
 }
 
-.prices p {
+#prices p {
     font-size: 1.8rem;
 }
 
@@ -598,7 +598,7 @@ td {
 #booking-main {
     background: url(../images/booking-background.jpg) no-repeat center center;
     background-size: cover;
-    padding-top: 25vh;
+    padding: 25vh 0 3rem;
 }
 
 #booking-form,
@@ -1082,7 +1082,7 @@ input,
 
     /* classes and pricing page */
 
-    .classes-timetable h2 {
+    #classes-timetable h2 {
         font-size: 1.8rem;
     }
 

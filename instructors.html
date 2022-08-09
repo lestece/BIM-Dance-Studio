@@ -32,9 +32,11 @@
                 </li>
                 <li class="nav-flex-item"> <a href="instructors.html" class="active"
                         aria-label="Link to the Instructors page">Instructors</a></li>
-                <li class="nav-flex-item"> <a href="classes-and-prices.html" aria-label="Link to Classes and Pricing page">Classes &
+                <li class="nav-flex-item"> <a href="classes-and-prices.html"
+                        aria-label="Link to Classes and Pricing page">Classes &
                         Prices</a></li>
-                <li class="nav-flex-item"> <a href="book-now.html" aria-label="Link to to the Booking page">Book now!</a></li>
+                <li class="nav-flex-item"> <a href="book-now.html" aria-label="Link to to the Booking page">Book
+                        now!</a></li>
             </ul>
 
             <!-- Hamburger menu for smartphones: adapted on the tutorial followed on https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci -->
@@ -86,16 +88,16 @@
                 <div class="instructor-specifics">
                     <h3>Francis Moulin</h3>
                     <h4>Jazz</h4>
-                
-                <div class="instructor-details">
-                    <p>If you ask Francis’ parents how he was as a kid,
-                        they’d tell you he’d never stop dancing!
-                        <br> <br>
-                        Being obvious what his call was, in 2016 he
-                        graduated in Dance and Performance BA (Hons)
-                        at UCEN Manchester: 2 months later he was already ideating choreographies in our studio.
-                    </p>
-                </div>
+
+                    <div class="instructor-details">
+                        <p>If you ask Francis’ parents how he was as a kid,
+                            they’d tell you he’d never stop dancing!
+                            <br> <br>
+                            Being obvious what his call was, in 2016 he
+                            graduated in Dance and Performance BA (Hons)
+                            at UCEN Manchester: 2 months later he was already ideating choreographies in our studio.
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -106,17 +108,17 @@
                 <div class="instructor-specifics">
                     <h3>Adriana Bassi</h3>
                     <h4>Contemporary</h4>
-                
-                <div class="instructor-details">
-                    <p>Adriana has one of those shiny personalities that
-                        are able to conquer a room full of people!
-                        And this reflects on her classes: they’re
-                        energetic, sensual, soulful.
-                        <br> <br>
-                        She graduated in Contemporary Dance BA (Hons)
-                        at the Conservatoire for Dance and Drama.
-                    </p>
-                </div>
+
+                    <div class="instructor-details">
+                        <p>Adriana has one of those shiny personalities that
+                            are able to conquer a room full of people!
+                            And this reflects on her classes: they’re
+                            energetic, sensual, soulful.
+                            <br> <br>
+                            She graduated in Contemporary Dance BA (Hons)
+                            at the Conservatoire for Dance and Drama.
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -127,16 +129,16 @@
                 <div class="instructor-specifics">
                     <h3>Lizzie McGregor</h3>
                     <h4>Afro</h4>
-                
-                <div class="instructor-details">
-                    <p>Lizzie discovered Afro dance during her path
-                        of rediscovering her origins: it was love at first sight.
-                        <br> <br>
-                        She gained her Diploma in Dance Teaching at the IDTA and has
-                        been with us for 2 years now. Rest assured that you’ll break
-                        a sweat during her classes!
-                    </p>
-                </div>
+
+                    <div class="instructor-details">
+                        <p>Lizzie discovered Afro dance during her path
+                            of rediscovering her origins: it was love at first sight.
+                            <br> <br>
+                            She gained her Diploma in Dance Teaching at the IDTA and has
+                            been with us for 2 years now. Rest assured that you’ll break
+                            a sweat during her classes!
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -146,8 +148,10 @@
             <button class="btn-cream-bg classes-btn">See classes timetable</button>
             <button class="book-btn">Book a class now!</button>
         </section>
+        <!-- Scroll back to top button script. Inspired by w3schools (button that stops before footer: trick found on stackoverflow)-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"> Top </button>
 
-        <footer>
+        <footer id="footer">
             <!-- Address and contacts block -->
             <div class="footer-flex-item">
                 <h2>Address:</h2>
@@ -217,6 +221,47 @@
                 navMenu.classList.remove("active");
             }
         </script>
+        <!-- Scroll back to top button script -->
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+
+            // check that button is not lower than footer.
+            let footerElement = document.getElementById('footer');
+            let footerElementRect = footerElement.getBoundingClientRect();
+            let mybuttonPositionBottom = mybutton.offsetTop + mybutton.offsetHeight;
+            if (footerElementRect.y < mybuttonPositionBottom) {
+                // if button is lower than footer.
+                // modify css bottom.
+                let diffheight = mybuttonPositionBottom - footerElementRect.y;
+                let style = window.getComputedStyle(mybutton);
+                let addBottom = parseInt(style.getPropertyValue('bottom')) + diffheight;
+                mybutton.style.bottom = addBottom + '10px'; // maybe add more 10 px for bottom space of a button.
+            } else {
+                // if button is heigher than footer. this including scroll up.
+                // remove custom css bottom.
+                mybutton.style.bottom = '';
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>

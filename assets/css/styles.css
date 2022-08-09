@@ -314,13 +314,35 @@ nav a:hover {
 /* Location styling */
 #location {
     text-align: center;
-    margin-top: 6rem;
+    margin: 6rem auto;
 }
 
 iframe {
     width: 100%;
     margin-top: 2rem;
 }
+
+/* Scroll back to top button */
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 80px; 
+    right: 5px; 
+    z-index: 99; 
+    border: 1px solid rgb(197, 192, 185); 
+    outline: none; 
+    background-color: rgb(44, 52, 60); 
+    color: rgb(197, 192, 185); 
+    cursor: pointer; 
+    padding: 10px; 
+    font-size: 1rem; 
+  }
+  
+  
+  #myBtn:hover {
+    background-color: rgb(197, 192, 185); 
+    color: rgb(44, 52, 60);
+  }
 
 /* Footer */
 
@@ -332,6 +354,7 @@ footer {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+    /* margin-top: 2rem; */
 }
 
 footer>* {

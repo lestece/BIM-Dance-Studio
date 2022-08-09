@@ -973,6 +973,12 @@ input,
     .nav-flex-item a {
         color: rgb(44, 52, 60);
     }
+    
+    nav a:hover {
+        background-color: rgba(44, 52, 60, 0.8);
+        border-radius: 2px;
+        padding: 0.2rem 1rem;
+    }
 
     .hamburger {
         display: block;

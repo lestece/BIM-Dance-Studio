@@ -606,8 +606,13 @@ td {
     margin-top: 2rem;
 }
 
+#booking-confirmation h2{
+    margin-top: 2rem;
+}
+
 #booking-confirmation p{
     font-family: 'Nunito', sans-serif;
+    margin-top: 6rem;
 }
 
 .booking-confirmation-btns{
@@ -714,8 +719,6 @@ input,
 
 
 
-
-
 /* Large and Medium devices (landscape tablets, laptops/desktops 1012 px and down) */
 @media only screen and (max-width: 1012px) {
 
@@ -777,6 +780,19 @@ input,
 
     .grid-item {
         justify-content: space-between;
+    }
+
+    #booking-confirmation{
+        margin-top: 12vh;
+    }
+
+    .booking-confirmation-btns{
+        flex-wrap: nowrap !important;
+        gap: 2rem;
+    }
+
+    .booking-confirmation-btns button{
+        font-size: 1rem !important;
     }
 
 }
@@ -1126,4 +1142,15 @@ input,
         width: auto;
     }
 
+    #booking-confirmation{
+margin-top: 0;
+    }
+
+    .booking-confirmation-btns{
+        margin-top: 3rem !important;
+    }
+
+    .booking-confirmation-btns button{
+        margin: 1rem !important;
+    }
 }

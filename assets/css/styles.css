@@ -324,25 +324,25 @@ iframe {
 
 /* Scroll back to top button */
 #myBtn {
-    display: none; 
-    position: fixed; 
-    bottom: 80px; 
-    right: 5px; 
-    z-index: 99; 
-    border: 1px solid rgb(197, 192, 185); 
-    outline: none; 
-    background-color: rgb(44, 52, 60); 
-    color: rgb(197, 192, 185); 
-    cursor: pointer; 
-    padding: 10px; 
-    font-size: 1rem; 
-  }
-  
-  
-  #myBtn:hover {
-    background-color: rgb(197, 192, 185); 
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 5px;
+    z-index: 99;
+    border: 1px solid rgb(197, 192, 185);
+    outline: none;
+    background-color: rgb(44, 52, 60);
+    color: rgb(197, 192, 185);
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+#myBtn:hover {
+    background-color: rgb(197, 192, 185);
     color: rgb(44, 52, 60);
-  }
+}
 
 /* Footer */
 
@@ -610,11 +610,11 @@ td {
     color: rgb(255, 255, 255);
 }
 
-.booking-confirmation-main{
+.booking-confirmation-main {
     padding-bottom: 4rem;
 }
 
-#booking-confirmation{
+#booking-confirmation {
     padding: 2rem;
 }
 
@@ -625,20 +625,20 @@ td {
 }
 
 #booking-form h2,
-#booking-confirmation p{
+#booking-confirmation p {
     margin-top: 2rem;
 }
 
-#booking-confirmation h2{
+#booking-confirmation h2 {
     margin-top: 2rem;
 }
 
-#booking-confirmation p{
+#booking-confirmation p {
     font-family: 'Nunito', sans-serif;
     margin-top: 6rem;
 }
 
-.booking-confirmation-btns{
+.booking-confirmation-btns {
     margin-top: 6rem;
 }
 
@@ -673,7 +673,7 @@ fieldset legend {
     gap: 0.5rem;
 }
 
-.grid-item label{
+.grid-item label {
     margin-right: 1rem;
 }
 
@@ -703,15 +703,15 @@ fieldset legend {
     border-radius: 0;
 }
 
-#flex-form-btns button{
+#flex-form-btns button {
     font-size: 2rem;
 }
 
-#flex-form-btns input{
+#flex-form-btns input {
     font-size: 1rem;
 }
 
-#email{
+#email {
     font-size: 0.8rem;
     width: 230px;
 }
@@ -805,16 +805,16 @@ input,
         justify-content: space-between;
     }
 
-    #booking-confirmation{
+    #booking-confirmation {
         margin-top: 12vh;
     }
 
-    .booking-confirmation-btns{
+    .booking-confirmation-btns {
         flex-wrap: nowrap !important;
         gap: 2rem;
     }
 
-    .booking-confirmation-btns button{
+    .booking-confirmation-btns button {
         font-size: 1rem !important;
     }
 
@@ -1047,7 +1047,7 @@ input,
     }
 
     #location {
-        margin-top: 3rem;
+        margin: 3rem 0 0;
     }
 
     footer {
@@ -1151,29 +1151,34 @@ input,
         font-size: 1rem;
     }
 
-    #flex-form-btns{
+    #flex-form-btns {
         flex-direction: column;
         gap: 0.5rem;
     }
 
-    #flex-form-btns .book-btn{
+    #flex-form-btns .book-btn {
         font-size: 2rem;
     }
 
-    #email{
+    #email {
         font-size: 1.2rem;
         width: auto;
     }
 
-    #booking-confirmation{
-margin-top: 0;
+    #booking-confirmation {
+        margin-top: 0;
     }
 
-    .booking-confirmation-btns{
+    .booking-confirmation-btns {
         margin-top: 3rem !important;
     }
 
-    .booking-confirmation-btns button{
+    .booking-confirmation-btns button {
         margin: 1rem !important;
+    }
+
+    #myBtn {
+        position: static;
+        margin: 2rem auto;
     }
 }

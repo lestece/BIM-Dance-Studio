@@ -145,83 +145,84 @@
         </section>
 
         <section class="buttons-section">
-            <a href="classes-and-prices.html#classes-timetable"><button class="btn-cream-bg classes-btn">See classes timetable</button></a>
-            <a href="book-now.html"><button class="book-btn">Book a class now!</button></a>
+            <button class="btn-cream-bg classes-btn"
+                onclick="window.location.href ='classes-and-prices.html#classes-timetable'">See classes
+                timetable</button>
+            <button class="book-btn" onclick="window.location.href ='book-now.html'">Book a class now!</button>
         </section>
         <!-- Scroll back to top button script. Inspired by w3schools (button that stops before footer: trick found on stackoverflow)-->
         <button onclick="topFunction()" id="myBtn" title="Go to top"> Top </button>
+    </main>
 
-        <footer id="footer">
-            <!-- Address and contacts block -->
-            <div class="footer-flex-item">
-                <h2>Address:</h2>
-                <p>Castlehill, Edinburgh EH1 2NG</p>
-                <br>
-                <h2>Contacts:</h2>
-                <p>+44 7769382628</p>
-                <a href="mailto: bimdancestudio@gmail.com">bimdancestudio@gmail.com</a>
-            </div>
+    <footer id="footer">
+        <!-- Address and contacts block -->
+        <div class="footer-flex-item">
+            <h2>Address:</h2>
+            <p>Castlehill, Edinburgh EH1 2NG</p>
+            <br>
+            <h2>Contacts:</h2>
+            <p>+44 7769382628</p>
+            <a href="mailto:bimdancestudio@gmail.com">bimdancestudio@gmail.com</a>
+        </div>
 
-            <!-- Opening times block -->
-            <div class="footer-flex-item">
-                <h2>Opening times:</h2>
-                <br>
-                <p>MONDAY - FRIDAY</p>
-                <br>
-                <p> 8am - 8pm</p>
-            </div>
+        <!-- Opening times block -->
+        <div class="footer-flex-item">
+            <h2>Opening times:</h2>
+            <br>
+            <p>MONDAY - FRIDAY</p>
+            <br>
+            <p> 8am - 8pm</p>
+        </div>
 
-            <!-- Social media links -->
-            <div class="footer-flex-item">
-                <ul id="social-container">
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (opens in a new tab)"> <i
-                                class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                            aria-label="Visit our Instagram page (opens in a new tab)"><i
-                                class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                            aria-label="Visit YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+        <!-- Social media links -->
+        <div class="footer-flex-item">
+            <ul id="social-container">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
-        <!-- Font awesome script -->
-        <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
 
-        <!-- dev.to script for hamburger menu -->
-        <script>
-            const hamburger = document.querySelector(".hamburger");
-            const navMenu = document.querySelector(".nav-flex-container");
+    <!-- dev.to script for hamburger menu -->
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-flex-container");
 
-            hamburger.addEventListener("click", mobileMenu);
+        hamburger.addEventListener("click", mobileMenu);
 
-            function mobileMenu() {
-                hamburger.classList.toggle("active");
-                navMenu.classList.toggle("active");
-            }
-            // To close the hamburger menu when we click a link
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+        // To close the hamburger menu when we click a link
 
-            const navLink = document.querySelectorAll(".nav-link");
+        const navLink = document.querySelectorAll(".nav-link");
 
-            navLink.forEach(n => n.addEventListener("click", closeMenu));
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
 
-            function closeMenu() {
-                hamburger.classList.remove("active");
-                navMenu.classList.remove("active");
-            }
-        </script>
-        <!-- Scroll back to top button script -->
+        function closeMenu() {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }
+    </script>
+    <!-- Scroll back to top button script -->
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");

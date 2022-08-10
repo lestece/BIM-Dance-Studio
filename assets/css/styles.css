@@ -434,7 +434,7 @@ footer a {
 }
 
 .hero-shortened {
-    background-size: 100%;
+    background-size: cover;
     max-height: 60vh;
 }
 
@@ -499,6 +499,7 @@ footer a {
 
 .hero-classes {
     background: url(../images/classes-img.jpg) no-repeat 40% 49%;
+    background-size: cover;
 }
 
 #classes-timetable {

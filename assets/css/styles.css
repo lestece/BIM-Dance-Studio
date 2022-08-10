@@ -137,9 +137,24 @@ nav a:hover {
     align-self: center;
 }
 
-.hero-content span {
-    font-family: 'Lora', serif;
+.hero-content-text h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.hero-content-text h2 span {
     font-weight: bold;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.hero-content-text span{
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    font-size: inherit;
+    font-style: italic;
+    display: block;
+    margin-top: 2rem;
 }
 
 .book-btn {
@@ -965,7 +980,7 @@ input,
     }
 
     header {
-        height: 10vh;
+        height: 14vh;
         flex-direction: row;
         justify-content: space-between;
         position: fixed;
@@ -1035,8 +1050,8 @@ input,
     .hero-content-text {
         min-width: 90vw;
         padding: 2%;
-        margin-top: 10vh;
-        padding: 4%;
+        margin-top: 14vh;
+        padding: 10%;
     }
 
     .hero-content-text h2{

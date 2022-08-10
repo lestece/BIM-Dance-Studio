@@ -109,7 +109,7 @@ nav a:hover {
     height: 100vh;
     margin-bottom: 4rem;
     background: url(../images/hero-image.jpg) no-repeat 40% 37%;
-    background-size: 100%;
+    background-size: cover;
 }
 
 
@@ -954,12 +954,14 @@ input,
 @media only screen and (max-width: 666px) {
 
     * {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        line-height: 2rem;
     }
 
     button {
         font-size: 1rem;
         padding: 0.5rem 0.5rem;
+        line-height: normal;
     }
 
     header {
@@ -1034,6 +1036,17 @@ input,
         min-width: 90vw;
         padding: 2%;
         margin-top: 10vh;
+        padding: 4%;
+    }
+
+    .hero-content-text h2{
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    .hero-content-text span{
+        display: block;
+        font-size: 1.6rem;
     }
 
     .hero-content button {

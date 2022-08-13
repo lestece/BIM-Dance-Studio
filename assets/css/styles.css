@@ -1007,7 +1007,7 @@ input,
         top: 14vh;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(197, 192, 185);
+        background-color: rgb(197, 192, 185) !important;
         width: 100vw;
         transition: 0.3s;
         box-shadow:
@@ -1022,6 +1022,10 @@ input,
     .nav-flex-item a {
         color: rgb(44, 52, 60);
         font-weight: 600;
+    }
+
+    .nav-flex-item .active{
+        background-color: inherit !important;
     }
 
     nav a:hover {

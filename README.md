@@ -139,6 +139,14 @@ After a brief introduction, the classes section under the hero displays a grid o
 
 ![Classes section](docs/docs-images/classes-section.png)
 
+- #### CAROUSEL
+
+The "genres taught" section in the homepage is displayed with a carousel/ slideshow on screens 666px and under.
+
+The carousel has been adapted to the tutorial on [this tutorial](https://www.w3schools.com/howto/howto_js_slideshow.asp) on __W3schools__ .
+
+![Genres taught carousel](docs/docs-images/carousel.gif)
+
 - #### MEET THE TEAM SECTION
 
 This section of the homepage reassures the user about the studio reliability. It also provides a link to the "Instructors" page of the website.

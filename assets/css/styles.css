@@ -204,22 +204,22 @@ nav a:hover {
 }
 
 /* background images and styles for each genre box */
-#ballet-box {
+.ballet-box {
     background: url(../images/ballet.jpg) no-repeat 20% 40%;
     background-size: cover;
 }
 
-#jazz-box {
+.jazz-box {
     background: url(../images/jazz.jpg) no-repeat 20% 40%;
     background-size: cover;
 }
 
-#contemporary-box {
+.contemporary-box {
     background: url(../images/contemporary.jpg) no-repeat 20% 40%;
     background-size: cover;
 }
 
-#afro-box {
+.afro-box {
     background: url(../images/afro.jpg) no-repeat 20% 40%;
     background-size: cover;
 }

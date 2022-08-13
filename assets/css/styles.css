@@ -25,7 +25,7 @@ button,
     padding: 1.2rem 1.8rem;
 }
 
-button > a {
+button>a {
     text-decoration: none;
     color: inherit;
 }
@@ -137,7 +137,7 @@ nav a:hover {
     align-self: center;
 }
 
-.hero-content-text h2{
+.hero-content-text h2 {
     font-weight: 400;
     font-size: 1.5rem;
 }
@@ -148,7 +148,7 @@ nav a:hover {
     margin-top: 0;
 }
 
-.hero-content-text span{
+.hero-content-text span {
     font-family: 'Lora', serif;
     font-weight: lighter;
     font-size: inherit;
@@ -280,7 +280,7 @@ nav a:hover {
 }
 
 /* Hide carousel for small screens */
-.slideshow-container{
+.slideshow-container {
     display: none;
 }
 
@@ -819,20 +819,20 @@ input,
     /* Classes & Prices page */
 
     #classes-timetable h2,
-    #prices h2{
+    #prices h2 {
         font-size: 2rem;
 
     }
 
-    #prices h3{
+    #prices h3 {
         font-size: 1.8rem;
     }
 
-    #prices p{
+    #prices p {
         font-size: 1.5rem;
     }
 
-    .parenthesis-style{
+    .parenthesis-style {
         font-size: 1.2rem;
     }
 
@@ -963,7 +963,7 @@ input,
         padding: 1rem;
     }
 
-    .parenthesis-style{
+    .parenthesis-style {
         display: block;
     }
 
@@ -1023,7 +1023,7 @@ input,
         color: rgb(44, 52, 60);
         font-weight: 600;
     }
-    
+
     nav a:hover {
         background-color: rgba(44, 52, 60, 0.8);
         border-radius: 2px;
@@ -1057,12 +1057,12 @@ input,
         padding: 10%;
     }
 
-    .hero-content-text h2{
+    .hero-content-text h2 {
         font-size: 1.4rem;
         font-weight: 400;
     }
 
-    .hero-content-text span{
+    .hero-content-text span {
         display: block;
         font-size: 1.6rem;
     }
@@ -1089,94 +1089,116 @@ input,
 
     /* Hide genres-wrapper for large screens and display carousel instead + carousel styling*/
 
-    .genres-wrapper{
+    .genres-wrapper {
         display: none;
     }
 
-    .slideshow-container{
+    .slideshow-container {
         display: block;
-        /* max-width: 1000px; */
         position: relative;
-        margin: auto;
+        margin: 3rem auto;
+        color: rgb(255, 255, 255);
     }
 
     /* Hide the images by default */
-.mySlides {
-    display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
+    .mySlides {
+        display: none;
+    }
 
-  .genre-box {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -35px;
+        padding: 16px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        user-select: none;
+    }
 
-  /* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+    /* position previous button to the left */
+
+    .prev {
+        left: 0;
+        border-radius: 0 3px 3px 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgb(197, 192, 185);
+        color: rgb(44, 52, 60);
+    }
+
+    .genre-box {
+        color: #f2f2f2;
+        padding: 8px 12px;
+        width: 100%;
+        text-align: center;
+        height: 50vh;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+    }
+
+    .genre-text {
+        font-family: 'Lora', serif;
+        font-weight: 300;
+        float: right;
+        background-color: rgb(197, 192, 185);
+        color: rgb(44, 52, 60);
+        padding: 0 1rem;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
 
 
 
@@ -1255,7 +1277,7 @@ input,
         margin-top: 2rem;
     }
 
-    .price-style{
+    .price-style {
         font-size: 2rem;
     }
 

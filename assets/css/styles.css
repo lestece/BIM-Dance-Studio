@@ -471,7 +471,8 @@ footer a {
 
 .instructor-details p {
     max-width: 50vw;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
     border-top: 1px dotted rgb(197, 192, 185);
 }
 
@@ -482,6 +483,8 @@ footer a {
 
 .instructor-box img {
     border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
 
 .buttons-section {
@@ -1024,7 +1027,7 @@ input,
         font-weight: 600;
     }
 
-    .nav-flex-item .active{
+    .nav-flex-item .active {
         background-color: inherit !important;
     }
 
@@ -1251,11 +1254,20 @@ input,
 
     /* instructors page */
 
+    .hero-instructors{
+        margin-bottom: 0;
+    }
+
     .instructor-box {
         display: flex;
         flex-direction: column;
         text-align: center;
         gap: 1rem;
+    }
+
+    .instructor-box img {
+        width: 150px;
+        height: 150px;
     }
 
     .instructor-specifics {

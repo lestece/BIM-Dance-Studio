@@ -225,41 +225,20 @@ nav a:hover {
 }
 
 .genre-box {
-    position: relative;
+    border: 1px solid rgb(255, 255, 255);
 }
 
-.genre-label {
-    width: 100%;
-    background-color: rgba(197, 192, 185, 0.4);
-
-    position: absolute;
+.genre-text {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
     text-transform: uppercase;
-    font-size: 1.5rem;
-}
-
-/* position first row genre labels at the bottom of the container and left align text and do the opposite with the second row */
-#ballet-box .genre-label,
-#jazz-box .genre-label {
-    bottom: 0;
-}
-
-#ballet-box .genre-label p,
-#jazz-box .genre-label p {
-    float: left;
-    text-align: left;
-    margin-left: 2rem;
-}
-
-#contemporary-box .genre-label,
-#afro-box .genre-label {
-    top: 0;
-}
-
-#contemporary-box .genre-label p,
-#afro-box .genre-label p {
+    font-weight: 600;
+    letter-spacing: 0.3rem;
     float: right;
-    text-align: right;
-    margin-right: 2rem;
+    background-color: rgb(197, 192, 185);
+    color: rgb(44, 52, 60);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0.5rem 0 0;
 }
 
 .btn-cream-bg {
@@ -476,11 +455,11 @@ footer a {
     border-top: 1px dotted rgb(197, 192, 185);
 }
 
-.bold-specifics{
+.bold-specifics {
     font-weight: 600;
 }
 
-.italic-specifics{
+.italic-specifics {
     font-style: italic;
 }
 
@@ -885,34 +864,6 @@ input,
         margin: 1rem 0;
     }
 
-    .genre-box {
-        margin-bottom: 1rem;
-    }
-
-    .genre-label {
-        background: rgba(0, 0, 0, 0);
-        font-size: 1rem;
-        margin-top: 1rem;
-    }
-
-    #ballet-box .genre-label,
-    #jazz-box .genre-label {
-        top: 0;
-    }
-
-    #jazz-box .genre-label p {
-        text-align: right;
-        float: right;
-        margin-right: 2rem;
-    }
-
-    #contemporary-box .genre-label p {
-        text-align: left;
-        float: left;
-        margin-left: 2rem;
-    }
-
-
     #meet-the-team {
         display: block;
         text-align: center;
@@ -1063,8 +1014,6 @@ input,
     }
 
     /* Fix measures for avoiding hero background image to shrink until the section breaks */
-    /* Tested the measures down to 318px */
-
     .hero-content-text {
         min-width: 90vw;
         padding: 2%;
@@ -1173,15 +1122,6 @@ input,
         z-index: 999;
     }
 
-    .genre-text {
-        font-family: 'Lora', serif;
-        font-weight: 300;
-        float: right;
-        background-color: rgb(197, 192, 185);
-        color: rgb(44, 52, 60);
-        padding: 0 1rem;
-    }
-
     /* The dots/bullets/indicators */
     .dot {
         cursor: pointer;
@@ -1262,7 +1202,7 @@ input,
 
     /* instructors page */
 
-    .hero-instructors{
+    .hero-instructors {
         margin-bottom: 0;
     }
 

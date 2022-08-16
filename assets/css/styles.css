@@ -722,12 +722,15 @@ fieldset legend {
     border-radius: 0;
 }
 
-#flex-form-btns button {
-    font-size: 2rem;
+#flex-form-btns button{
+    background-color: rgb(197, 192, 185);
+    color: rgba(44, 52, 60);
 }
 
-#flex-form-btns input {
-    font-size: 1rem;
+#flex-form-btns button:hover,
+#flex-form-btns input:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 52, 60)
 }
 
 #email {

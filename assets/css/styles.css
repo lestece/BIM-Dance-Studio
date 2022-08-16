@@ -23,6 +23,7 @@ button,
     font-weight: 600;
     letter-spacing: 0.2rem;
     padding: 1.2rem 1.8rem;
+    cursor: pointer;
 }
 
 button>a {
@@ -1305,11 +1306,6 @@ input,
 
     #flex-form-btns {
         flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    #flex-form-btns .book-btn {
-        font-size: 2rem;
     }
 
     #email {

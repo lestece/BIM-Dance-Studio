@@ -55,20 +55,20 @@
                 <div id="grid-inputs">
                     <div class="grid-item">
                         <label for="fname">First Name:</label>
-                        <input type="text" id="fname" name="first_name" required class="text-input">
+                        <input type="text" id="fname" name="first_name" required class="text-input" placeholder="Anna">
                     </div>
                     <div class="grid-item">
                         <label for="lname">Last Name:</label>
-                        <input type="text" id="lname" name="last_name" required class="text-input">
+                        <input type="text" id="lname" name="last_name" required class="text-input" placeholder="Smith">
                     </div>
                     <div class="grid-item">
                         <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="email_address" required class="text-input">
+                        <input type="email" id="email" name="email_address" required class="text-input" placeholder="annasmith@gmail.com">
                     </div>
                     <div class="grid-item">
                         <label for="phone">Telephone:</label>
-                        <input type="tel" id="phone" name="phone"
-                            pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$">
+                        <input type="tel" id="phone" name="phone" required
+                            pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$" placeholder="07377457098">
                     </div>
 
                 </div>
@@ -76,12 +76,12 @@
                     <div id="date-flex">
                         <label for="date">Select a date:</label>
                         <input type="date" id="date" name="class-date" value="2022-08-06" min="2022-08-01"
-                            max="2022-12-31">
+                            max="2022-12-31" required>
                     </div>
 
                     <div id="class-time-flex">
                         <label for="class-time">Select a time:</label>
-                        <select id="class-time" name="class-time">
+                        <select id="class-time" name="class-time" required>
                             <option value="8-9.30">8am - 9.30am</option>
                             <option value="10-11.30">10am - 11.30am</option>
                             <option value="12-1.30">12pm - 1.30pm</option>
@@ -108,7 +108,7 @@
 
                 <fieldset id="payment-checkboxes">
                     <legend> What payment option are you considering? </legend>
-                    <input type="checkbox" id="drop-in" name="payment-option" value="drop-in">
+                    <input type="checkbox" id="drop-in" name="payment-option" value="drop-in" required>
                     <label for="drop-in">Drop-in</label>
                     <input type="checkbox" id="10-class-pass" name="payment-option" value="10-class-pass">
                     <label for="10-class-pass">10-class-pass</label>

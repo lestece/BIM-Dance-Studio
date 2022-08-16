@@ -338,8 +338,7 @@ iframe {
     background-color: rgb(44, 52, 60);
     color: rgb(197, 192, 185);
     cursor: pointer;
-    padding: 10px;
-    font-size: 1rem;
+    padding: 7px 7px 7px 10px;
 }
 
 
@@ -1186,7 +1185,7 @@ input,
     }
 
     #location {
-        margin: 3rem 0 0;
+        margin: 3rem 0;
     }
 
     footer {
@@ -1329,8 +1328,4 @@ input,
         margin: 1rem !important;
     }
 
-    #myBtn {
-        position: static;
-        margin: 2rem auto;
-    }
 }

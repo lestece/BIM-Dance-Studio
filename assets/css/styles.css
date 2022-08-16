@@ -551,10 +551,10 @@
 }
  #grid-inputs {
      margin: 3rem auto 0;
+     padding: 0 2rem;
      display: grid;
      grid-template-columns: 1fr 1fr;
      row-gap: 6rem;
-     column-gap: 3rem;
      justify-content: flex-start;
 }
  .grid-item {
@@ -562,11 +562,10 @@
      justify-content: center;
      gap: 0.5rem;
 }
- .grid-item label {
-     margin-right: 1rem;
-}
+
  .grid-item input{
-     max-height: 40px;
+     height: 40px;
+     max-width: 50%;
 }
  #date-time-flex-container{
      margin: 2rem 20%;

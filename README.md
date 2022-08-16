@@ -1,7 +1,10 @@
 # BIM-Dance-Studio
+
+![AmIResponsive](docs/docs-images/amiresponsive.png)
+
 Website for a dance studio based in Edinburgh
 
-[View the live website here](http://)
+[View the live website here](https://lestece.github.io/BIM-Dance-Studio/)
 
 ## TABLE OF CONTENTS
 1. [INTRODUCTION](#1-introduction)
@@ -31,6 +34,7 @@ Website for a dance studio based in Edinburgh
         - [Booking page](#booking-page)
         - [Booking confirmation page](#booking-confirmation-page)
         - [Back to top button](#back-to-top-button)
+    - [Features to implement in the future](#features-to-implement-in-the-future)
 4. [TESTING](#4-testing)
 5. [CREDITS](#5-credits)
 6. [DEPLOYMENT](#6-deployment)
@@ -222,9 +226,17 @@ All of the web pages provide the user with a fixed "Back to top" button for help
 
 _The button has been omitted in the booking page and the booking confirmation page_ because considered uneccessary due to the little (or none) scrolling the user has to make.
 
-At 666px and below, _the button has a fixed position before the footer_: this is because the nav bar is positioned fixed for small screen sizes and user already has an easy navigation through that. 
-
 Inspiration for this button has been taken from [here](https://stackoverflow.com/questions/57847734/stopping-scrolling-back-to-top-button-above-the-footer-at-all-times-pure-css-and).
+
+### FEATURES TO IMPLEMENT IN THE FUTURE
+
+- #### A reviews section in the homepage connected to TripAdvisor
+
+- #### A gallery page showing the studio rooms and equipment available
+
+- #### A booking page that merges with the classes timetable so that the user could book a class simply by clicking on the interested one without having to fill in the whole form on a different page
+
+- #### The option for paying straight away during the booking a class process
 
 ## 4. TESTING
 

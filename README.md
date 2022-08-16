@@ -29,8 +29,6 @@ Website for a dance studio based in Edinburgh
         - [Footer](#footer)
         - [Instructors page](#instructors-page)
         - [Classes & Prices page](#classes--prices-page)
-            1. [Classes timetable section](#1--classes-timetable)
-            2. [Prices section](#2--prices)
         - [Booking page](#booking-page)
         - [Booking confirmation page](#booking-confirmation-page)
         - [Back to top button](#back-to-top-button)

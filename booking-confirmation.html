@@ -1,137 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dance studio offering adult dance classes in Edinburgh">
-    <meta name="keywords" content="dance studio, dance classes, dance, scotland, edinburgh">
-    <meta name="author" content="Celeste Loi">
-
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>BIM Dance Studio</title>
-</head>
-
-<body>
-    <!-- Header containing logo and nav-bar -->
-    <header id="booking-header">
-        <!-- Logo -->
-        <div id="bim-logo">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Dance studio offering adult dance classes in Edinburgh">
+      <meta name="keywords" content="dance studio, dance classes, dance, scotland, edinburgh">
+      <meta name="author" content="Celeste Loi">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <!-- Gymnast icons created by monkik - Flaticon; attribution: 
+         <a href="https://www.flaticon.com/free-icons/gymnast" title="gymnast icons">Gymnast icons created by monkik - Flaticon</a>.
+         Icon has been converted to the .ico format using favicon.cc -->
+      <title>BIM Dance Studio</title>
+      <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+   </head>
+   <body>
+      <!-- Header containing logo and nav-bar -->
+      <header id="booking-header">
+         <!-- Logo -->
+         <div id="bim-logo">
             <a href="index.html">
-                <h1>BIM</h1>
-                <hr>
-                <p>dance studio</p>
+               <h1>BIM</h1>
+               <hr>
+               <p>dance studio</p>
             </a>
-        </div>
-        <!-- Nav bar -->
-        <nav>
+         </div>
+         <!-- Nav bar -->
+         <nav>
             <ul class="nav-flex-container">
-                <li class="nav-flex-item"> <a href="index.html" aria-label="Link to Homepage">Home</a>
-                </li>
-                <li class="nav-flex-item"> <a href="instructors.html"
-                        aria-label="Link to the Instructors page">Instructors</a></li>
-                <li class="nav-flex-item"> <a href="classes-and-prices.html"
-                        aria-label="Link to Classes and Pricing page">Classes &
-                        Prices</a></li>
-                <li class="nav-flex-item"> <a href="book-now.html" class="active"
-                        aria-label="Link to to the Booking page">Book now!</a></li>
+               <li class="nav-flex-item"> <a href="index.html" aria-label="Link to Homepage">Home</a>
+               </li>
+               <li class="nav-flex-item"> <a href="instructors.html"
+                  aria-label="Link to the Instructors page">Instructors</a></li>
+               <li class="nav-flex-item"> <a href="classes-and-prices.html"
+                  aria-label="Link to Classes and Pricing page">Classes &
+                  Prices</a>
+               </li>
+               <li class="nav-flex-item"> <a href="book-now.html" class="active"
+                  aria-label="Link to to the Booking page">Book now!</a></li>
             </ul>
-
             <!-- Hamburger menu for smartphones: adapted on the tutorial followed on https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci -->
             <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
             </div>
-        </nav>
-    </header>
-
-    <main id="booking-main" class="booking-confirmation-main">
-        <section id="booking-confirmation">
+         </nav>
+      </header>
+      <main id="booking-main" class="booking-confirmation-main">
+         <!-- Booking confirmation text container -->
+         <section id="booking-confirmation">
             <h2>Thank you for completing the form!</h2>
             <p>Your request has been submitted correctly and you'll be soon contacted by a member of our staff
-                to confirm your booking.
-                <br> <br>
-                We look forward to seeing you at BIM Dance Studio!
+               to confirm your booking.
+               <br> <br>
+               We look forward to seeing you at BIM Dance Studio!
             </p>
-
+            <!-- Booking confirmation container for buttons that redirect to either another booking or homepage -->
             <div id="flex-form-btns" class="booking-confirmation-btns">
-                <button class="book-btn" onclick="window.location.href ='book-now.html'">Book another class</button>
-                <button class="btn-cream-bg" onclick="window.location.href ='index.html'">Back to homepage</button>
+               <button class="book-btn" onclick="window.location.href ='book-now.html'">Book another class</button>
+               <button class="btn-cream-bg" onclick="window.location.href ='index.html'">Back to homepage</button>
             </div>
-
-        </section>
-    </main>
-    <footer>
-        <!-- Address and contacts block -->
-        <div class="footer-flex-item">
+         </section>
+      </main>
+      <!-- footer structure -->
+      <footer>
+         <!-- Address and contacts block -->
+         <div class="footer-flex-item">
             <h2>Address:</h2>
             <p>Castlehill, Edinburgh EH1 2NG</p>
             <br>
             <h2>Contacts:</h2>
             <p>+44 7769382628</p>
             <a href="mailto:bimdancestudio@gmail.com">bimdancestudio@gmail.com</a>
-        </div>
-
-        <!-- Opening times block -->
-        <div class="footer-flex-item">
+         </div>
+         <!-- Opening times block -->
+         <div class="footer-flex-item">
             <h2>Opening times:</h2>
             <br>
             <p>MONDAY - FRIDAY</p>
             <br>
             <p> 8am - 8pm</p>
-        </div>
-
-        <!-- Social media links -->
-        <div class="footer-flex-item">
+         </div>
+         <!-- Social media links -->
+         <div class="footer-flex-item">
             <ul id="social-container">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                        aria-label="Visit YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-                </li>
+               <li>
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                     aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fab fa-facebook-f"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+               </li>
+               <li>
+                  <a href="https://twitter.com/" target="_blank" rel="noopener"
+                     aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                     aria-label="Visit YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+               </li>
             </ul>
-        </div>
-    </footer>
-
-    <!-- Font awesome script -->
-    <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
-
-    <!-- dev.to script for hamburger menu -->
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".nav-flex-container");
-
-        hamburger.addEventListener("click", mobileMenu);
-
-        function mobileMenu() {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-        }
-        // To close the hamburger menu when we click a link
-
-        const navLink = document.querySelectorAll(".nav-link");
-
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-        function closeMenu() {
-            hamburger.classList.remove("active");
-            navMenu.classList.remove("active");
-        }
-    </script>
-</body>
-
+         </div>
+      </footer>
+      <!-- Scripts  -->
+      <!-- Font awesome script -->
+      <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
+      <!-- dev.to script for hamburger menu -->
+      <script>
+         const hamburger = document.querySelector(".hamburger");
+         const navMenu = document.querySelector(".nav-flex-container");
+         
+         hamburger.addEventListener("click", mobileMenu);
+         
+         function mobileMenu() {
+             hamburger.classList.toggle("active");
+             navMenu.classList.toggle("active");
+         }
+         // To close the hamburger menu when we click a link
+         
+         const navLink = document.querySelectorAll(".nav-link");
+         
+         navLink.forEach(n => n.addEventListener("click", closeMenu));
+         
+         function closeMenu() {
+             hamburger.classList.remove("active");
+             navMenu.classList.remove("active");
+         }
+      </script>
+   </body>
 </html>

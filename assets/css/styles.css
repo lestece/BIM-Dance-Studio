@@ -978,6 +978,7 @@ input,
 
     .nav-flex-container.active {
         left: 0;
+        padding: 1rem 0;
     }
 
 
@@ -1119,7 +1120,6 @@ input,
         padding: 8px 12px;
         position: absolute;
         top: 0;
-        z-index: 999;
     }
 
     /* The dots/bullets/indicators */

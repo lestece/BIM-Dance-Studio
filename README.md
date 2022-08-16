@@ -228,13 +228,13 @@ Inspiration for this button has been taken from [here](https://stackoverflow.com
 
 ### FEATURES TO IMPLEMENT IN THE FUTURE
 
-- #### A reviews section in the homepage connected to TripAdvisor
+- A reviews section in the homepage connected to TripAdvisor
 
-- #### A gallery page showing the studio rooms and equipment available
+- A gallery page showing the studio rooms and equipment available
 
-- #### A booking page that merges with the classes timetable so that the user could book a class simply by clicking on the interested one without having to fill in the whole form on a different page
+- A booking page that merges with the classes timetable so that the user could book a class simply by clicking on the interested one without having to fill in the whole form on a different page
 
-- #### The option for paying straight away during the booking a class process
+- The option for paying straight away during the booking a class process
 
 ## 4. TESTING
 

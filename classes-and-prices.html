@@ -1,460 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dance studio offering adult dance classes in Edinburgh">
-    <meta name="keywords" content="dance studio, dance classes, dance, scotland, edinburgh">
-    <meta name="author" content="Celeste Loi">
-
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>BIM Dance Studio</title>
-</head>
-
-<body>
-    <!-- Header containing logo and nav-bar -->
-    <header>
-        <!-- Logo -->
-        <div id="bim-logo">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Dance studio offering adult dance classes in Edinburgh">
+      <meta name="keywords" content="dance studio, dance classes, dance, scotland, edinburgh">
+      <meta name="author" content="Celeste Loi">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <!-- Gymnast icons created by monkik - Flaticon; attribution: 
+         <a href="https://www.flaticon.com/free-icons/gymnast" title="gymnast icons">Gymnast icons created by monkik - Flaticon</a>.
+         Icon has been converted to the .ico format using favicon.cc -->
+      <title>BIM Dance Studio</title>
+      <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+   </head>
+   <body>
+      <!-- Header containing logo and nav-bar -->
+      <header>
+         <!-- Logo -->
+         <div id="bim-logo">
             <a href="index.html">
-                <h1>BIM</h1>
-                <hr>
-                <p>dance studio</p>
+               <h1>BIM</h1>
+               <hr>
+               <p>dance studio</p>
             </a>
-        </div>
-        <!-- Nav bar -->
-        <nav>
+         </div>
+         <!-- Nav bar -->
+         <nav>
             <ul class="nav-flex-container">
-                <li class="nav-flex-item"> <a href="index.html" aria-label="Link to Homepage">Home</a>
-                </li>
-                <li class="nav-flex-item"> <a href="instructors.html"
-                        aria-label="Link to the Instructors page">Instructors</a></li>
-                <li class="nav-flex-item"> <a href="classes-and-prices.html" class="active"
-                        aria-label="Link to Classes and Pricing page">Classes &
-                        Prices</a></li>
-                <li class="nav-flex-item"> <a href="book-now.html" aria-label="Link to to the Booking page">Book
-                        now!</a></li>
+               <li class="nav-flex-item"> <a href="index.html" aria-label="Link to Homepage">Home</a>
+               </li>
+               <li class="nav-flex-item"> <a href="instructors.html"
+                  aria-label="Link to the Instructors page">Instructors</a></li>
+               <li class="nav-flex-item"> <a href="classes-and-prices.html" class="active"
+                  aria-label="Link to Classes and Pricing page">Classes &
+                  Prices</a>
+               </li>
+               <li class="nav-flex-item"> <a href="book-now.html" aria-label="Link to to the Booking page">Book
+                  now!</a>
+               </li>
             </ul>
-
             <!-- Hamburger menu for smartphones: adapted on the tutorial followed on https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci -->
             <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
             </div>
-        </nav>
-    </header>
-
-    <!-- Homepage main content -->
-    <main id="classes-and-prices-main">
-        <!-- Hero image  -->
-        <section class="hero-outer hero-shortened hero-classes">
+         </nav>
+      </header>
+      <!-- Homepage main content -->
+      <main id="classes-and-prices-main">
+         <!-- Hero image  -->
+         <section class="hero-outer hero-shortened hero-classes">
             <div class="hero-content medium-device-hero-content">
-                <div class="hero-content-text" id="classes-hero-text">
-                    <h2>We offer a wide range of classes and prices
-                        to suit all of your needs!</h2>
-                </div>
+               <div class="hero-content-text" id="classes-hero-text">
+                  <h2>We offer a wide range of classes and prices
+                     to suit all of your needs!
+                  </h2>
+               </div>
             </div>
-        </section>
-
-        <section id="classes-timetable">
+         </section>
+         <!-- Section containing classes timetable -->
+         <section id="classes-timetable">
             <h2>Classes Timetable</h2>
+            <!-- Color legend block to match with classes timetable cells background -->
             <div id="legend-block">
-                <div class="level-legend">
-                    <div class="color-legend beg-legend"></div>
-                    <h3>Beginner</h3>
-                </div>
-                <div class="level-legend">
-                    <div class="color-legend int-legend"></div>
-                    <h3>Intermediate</h3>
-                </div>
-                <div class="level-legend">
-                    <div class="color-legend adv-legend"></div>
-                    <h3>Advanced</h3>
-                </div>
+               <div class="level-legend">
+                  <div class="color-legend beg-legend"></div>
+                  <h3>Beginner</h3>
+               </div>
+               <div class="level-legend">
+                  <div class="color-legend int-legend"></div>
+                  <h3>Intermediate</h3>
+               </div>
+               <div class="level-legend">
+                  <div class="color-legend adv-legend"></div>
+                  <h3>Advanced</h3>
+               </div>
             </div>
-
-
+            <!-- Large screen classes timetable displayed on a single table containing all days of the week and times -->
             <table id="desktop-classes">
-                <tr>
-                    <th></th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-                </tr>
-                <tr>
-                    <td>8am - 9.30am</td>
-                    <td class="int-bg">Ballet</td>
-                    <td>Jazz</td>
-                    <td class="beg-bg">Afro</td>
-                    <td>Contemporary</td>
-                    <td class="beg-bg">Jazz</td>
-                </tr>
-                <tr>
-                    <td>10am - 11.30am</td>
-                    <td class="beg-bg">Jazz</td>
-                    <td class="beg-bg">Contemporary</td>
-                    <td class="beg-bg">Jazz</td>
-                    <td class="beg-bg">Contemporary</td>
-                    <td class="int-bg">Jazz</td>
-                </tr>
-                <tr>
-                    <td>12pm - 1.30pm</td>
-                    <td class="int-bg">Afro</td>
-                    <td class="beg-bg">Ballet</td>
-                    <td>Ballet</td>
-                    <td class="int-bg">Afro</td>
-                    <td>Ballet</td>
-                </tr>
-                <tr>
-                    <td>2pm - 3.30pm</td>
-                    <td class="int-bg">Contemporary</td>
-                    <td>Ballet</td>
-                    <td>Afro</td>
-                    <td class="int-bg">Ballet</td>
-                    <td class="beg-bg">Afro</td>
-                </tr>
-                <tr>
-                    <td>4pm - 5.30pm</td>
-                    <td>Jazz</td>
-                    <td class="int-bg">Ballet</td>
-                    <td class="int-bg">Contemporary</td>
-                    <td class="beg-bg">Afro</td>
-                    <td class="beg-bg">Jazz</td>
-                </tr>
-                <tr>
-                    <td>6pm - 7.30pm</td>
-                    <td>Afro</td>
-                    <td class="beg-bg">Contemporary</td>
-                    <td class="int-bg">Ballet</td>
-                    <td class="beg-bg">Ballet</td>
-                    <td>Contemporary</td>
-                </tr>
-                <tr>
-                    <td>8pm - 9.30pm</td>
-                    <td class="beg-bg">Ballet</td>
-                    <td class="int-bg">Jazz</td>
-                    <td class="int-bg">Jazz</td>
-                    <td>Contemporary</td>
-                    <td class="beg-bg">Contemporary</td>
-                </tr>
+               <!-- table headers: Days of the week -->
+               <tr>
+                  <th></th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+               </tr>
+               <!-- First td's of each row are for times of the day -->
+               <tr>
+                  <td>8am - 9.30am</td>
+                  <td class="int-bg">Ballet</td>
+                  <td>Jazz</td>
+                  <td class="beg-bg">Afro</td>
+                  <td>Contemporary</td>
+                  <td class="beg-bg">Jazz</td>
+               </tr>
+               <tr>
+                  <td>10am - 11.30am</td>
+                  <td class="beg-bg">Jazz</td>
+                  <td class="beg-bg">Contemporary</td>
+                  <td class="beg-bg">Jazz</td>
+                  <td class="beg-bg">Contemporary</td>
+                  <td class="int-bg">Jazz</td>
+               </tr>
+               <tr>
+                  <td>12pm - 1.30pm</td>
+                  <td class="int-bg">Afro</td>
+                  <td class="beg-bg">Ballet</td>
+                  <td>Ballet</td>
+                  <td class="int-bg">Afro</td>
+                  <td>Ballet</td>
+               </tr>
+               <tr>
+                  <td>2pm - 3.30pm</td>
+                  <td class="int-bg">Contemporary</td>
+                  <td>Ballet</td>
+                  <td>Afro</td>
+                  <td class="int-bg">Ballet</td>
+                  <td class="beg-bg">Afro</td>
+               </tr>
+               <tr>
+                  <td>4pm - 5.30pm</td>
+                  <td>Jazz</td>
+                  <td class="int-bg">Ballet</td>
+                  <td class="int-bg">Contemporary</td>
+                  <td class="beg-bg">Afro</td>
+                  <td class="beg-bg">Jazz</td>
+               </tr>
+               <tr>
+                  <td>6pm - 7.30pm</td>
+                  <td>Afro</td>
+                  <td class="beg-bg">Contemporary</td>
+                  <td class="int-bg">Ballet</td>
+                  <td class="beg-bg">Ballet</td>
+                  <td>Contemporary</td>
+               </tr>
+               <tr>
+                  <td>8pm - 9.30pm</td>
+                  <td class="beg-bg">Ballet</td>
+                  <td class="int-bg">Jazz</td>
+                  <td class="int-bg">Jazz</td>
+                  <td>Contemporary</td>
+                  <td class="beg-bg">Contemporary</td>
+               </tr>
             </table>
-
             <!-- table layout for medium and small screen sizes, 768px and down -->
+            <!-- Each day of the week has its own separate table -->
             <div id="small-screen-classes">
-                <table>
-                    <tr>
-                        <th colspan="2">Monday</th>
-                    </tr>
-                    <tr>
-                        <td>8am - 9.30am</td>
-                        <td class="int-bg">Ballet</td>
-                    </tr>
-                    <tr>
-                        <td>10am - 11.30am</td>
-                        <td class="beg-bg">Jazz</td>
-                    </tr>
-                    <tr>
-                        <td>12pm - 1.30pm</td>
-                        <td class="int-bg">Afro</td>
-                    </tr>
-                    <tr>
-                        <td>2pm - 3.30pm</td>
-                        <td class="int-bg">Contemporary</td>
-                    </tr>
-                    <tr>
-                        <td>4pm - 5.30pm</td>
-                        <td>Jazz</td>
-                    </tr>
-                    <tr>
-                        <td>6pm - 7.30pm</td>
-                        <td>Afro</td>
-                    </tr>
-                    <tr>
-                        <td>8pm - 9.30pm</td>
-                        <td class="beg-bg">Ballet</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <th colspan="2">Tuesday</th>
-                    </tr>
-                    <tr>
-                        <td>8am - 9.30am</td>
-                        <td>Jazz</td>
-                    </tr>
-                    <tr>
-                        <td>10am - 11.30am</td>
-                        <td class="beg-bg">Contemporary</td>
-                    </tr>
-                    <tr>
-                        <td>12pm - 1.30pm</td>
-                        <td class="beg-bg">Ballet</td>
-                    </tr>
-                    <tr>
-                        <td>2pm - 3.30pm</td>
-                        <td>Ballet</td>
-                    </tr>
-                    <tr>
-                        <td>4pm - 5.30pm</td>
-                        <td class="int-bg">Ballet</td>
-                    </tr>
-                    <tr>
-                        <td>6pm - 7.30pm</td>
-                        <td class="beg-bg">Contemporary</td>
-                    </tr>
-                    <tr>
-                        <td>8pm - 9.30pm</td>
-                        <td class="int-bg">Jazz</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <th colspan="2">Wednesday</th>
-                    </tr>
-                    <tr>
-                        <td>8am - 9.30am</td>
-                        <td class="beg-bg">Afro</td>
-                    </tr>
-                    <tr>
-                        <td>10am - 11.30am</td>
-                        <td class="beg-bg">Jazz</td>
-                    </tr>
-                    <tr>
-                        <td>12pm - 1.30pm</td>
-                        <td>Ballet</td>
-                    </tr>
-                    <tr>
-                        <td>2pm - 3.30pm</td>
-                        <td>Afro</td>
-                    </tr>
-                    <tr>
-                        <td>4pm - 5.30pm</td>
-                        <td class="int-bg">Contemporary</td>
-                    </tr>
-                    <tr>
-                        <td>6pm - 7.30pm</td>
-                        <td class="int-bg">Ballet</td>
-                    </tr>
-                    <tr>
-                        <td>8pm - 9.30pm</td>
-                        <td class="int-bg">Jazz</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <th colspan="2">Thursday</th>
-                    </tr>
-                    <tr>
-                        <td>8am - 9.30am</td>
-                        <td>Contemporary</td>
-                    </tr>
-                    <tr>
-                        <td>10am - 11.30am</td>
-                        <td class="beg-bg">Contemporary</td>
-                    </tr>
-                    <tr>
-                        <td>12pm - 1.30pm</td>
-                        <td class="int-bg">Afro</td>
-                    </tr>
-                    <tr>
-                        <td>2pm - 3.30pm</td>
-                        <td class="int-bg">Ballet</td>
-                    </tr>
-                    <tr>
-                        <td>4pm - 5.30pm</td>
-                        <td class="beg-bg">Afro</td>
-                    </tr>
-                    <tr>
-                        <td>6pm - 7.30pm</td>
-                        <td class="beg-bg">Ballet</td>
-                    </tr>
-                    <tr>
-                        <td>8pm - 9.30pm</td>
-                        <td>Contemporary</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <th colspan="2">Friday</th>
-                    </tr>
-                    <tr>
-                        <td>8am - 9.30am</td>
-                        <td class="beg-bg">Jazz</td>
-                    </tr>
-                    <tr>
-                        <td>10am - 11.30am</td>
-                        <td class="int-bg">Jazz</td>
-                    </tr>
-                    <tr>
-                        <td>12pm - 1.30pm</td>
-                        <td>Ballet</td>
-                    </tr>
-                    <tr>
-                        <td>2pm - 3.30pm</td>
-                        <td class="beg-bg">Afro</td>
-                    </tr>
-                    <tr>
-                        <td>4pm - 5.30pm</td>
-                        <td class="beg-bg">Jazz</td>
-                    </tr>
-                    <tr>
-                        <td>6pm - 7.30pm</td>
-                        <td>Contemporary</td>
-                    </tr>
-                    <tr>
-                        <td>8pm - 9.30pm</td>
-                        <td class="beg-bg">Contemporary</td>
-                    </tr>
-                </table>
+               <!-- Monday classes -->
+               <table>
+                  <tr>
+                     <th colspan="2">Monday</th>
+                  </tr>
+                  <!-- first td's on each row are for time of the day -->
+                  <tr>
+                     <td>8am - 9.30am</td>
+                     <td class="int-bg">Ballet</td>
+                  </tr>
+                  <tr>
+                     <td>10am - 11.30am</td>
+                     <td class="beg-bg">Jazz</td>
+                  </tr>
+                  <tr>
+                     <td>12pm - 1.30pm</td>
+                     <td class="int-bg">Afro</td>
+                  </tr>
+                  <tr>
+                     <td>2pm - 3.30pm</td>
+                     <td class="int-bg">Contemporary</td>
+                  </tr>
+                  <tr>
+                     <td>4pm - 5.30pm</td>
+                     <td>Jazz</td>
+                  </tr>
+                  <tr>
+                     <td>6pm - 7.30pm</td>
+                     <td>Afro</td>
+                  </tr>
+                  <tr>
+                     <td>8pm - 9.30pm</td>
+                     <td class="beg-bg">Ballet</td>
+                  </tr>
+               </table>
+               <!-- Tuesday classes -->
+               <table>
+                  <tr>
+                     <th colspan="2">Tuesday</th>
+                  </tr>
+                  <tr>
+                     <td>8am - 9.30am</td>
+                     <td>Jazz</td>
+                  </tr>
+                  <tr>
+                     <td>10am - 11.30am</td>
+                     <td class="beg-bg">Contemporary</td>
+                  </tr>
+                  <tr>
+                     <td>12pm - 1.30pm</td>
+                     <td class="beg-bg">Ballet</td>
+                  </tr>
+                  <tr>
+                     <td>2pm - 3.30pm</td>
+                     <td>Ballet</td>
+                  </tr>
+                  <tr>
+                     <td>4pm - 5.30pm</td>
+                     <td class="int-bg">Ballet</td>
+                  </tr>
+                  <tr>
+                     <td>6pm - 7.30pm</td>
+                     <td class="beg-bg">Contemporary</td>
+                  </tr>
+                  <tr>
+                     <td>8pm - 9.30pm</td>
+                     <td class="int-bg">Jazz</td>
+                  </tr>
+               </table>
+               Wednesday classes
+               <table>
+                  <tr>
+                     <th colspan="2">Wednesday</th>
+                  </tr>
+                  <tr>
+                     <td>8am - 9.30am</td>
+                     <td class="beg-bg">Afro</td>
+                  </tr>
+                  <tr>
+                     <td>10am - 11.30am</td>
+                     <td class="beg-bg">Jazz</td>
+                  </tr>
+                  <tr>
+                     <td>12pm - 1.30pm</td>
+                     <td>Ballet</td>
+                  </tr>
+                  <tr>
+                     <td>2pm - 3.30pm</td>
+                     <td>Afro</td>
+                  </tr>
+                  <tr>
+                     <td>4pm - 5.30pm</td>
+                     <td class="int-bg">Contemporary</td>
+                  </tr>
+                  <tr>
+                     <td>6pm - 7.30pm</td>
+                     <td class="int-bg">Ballet</td>
+                  </tr>
+                  <tr>
+                     <td>8pm - 9.30pm</td>
+                     <td class="int-bg">Jazz</td>
+                  </tr>
+               </table>
+               <!-- Thursday classes -->
+               <table>
+                  <tr>
+                     <th colspan="2">Thursday</th>
+                  </tr>
+                  <tr>
+                     <td>8am - 9.30am</td>
+                     <td>Contemporary</td>
+                  </tr>
+                  <tr>
+                     <td>10am - 11.30am</td>
+                     <td class="beg-bg">Contemporary</td>
+                  </tr>
+                  <tr>
+                     <td>12pm - 1.30pm</td>
+                     <td class="int-bg">Afro</td>
+                  </tr>
+                  <tr>
+                     <td>2pm - 3.30pm</td>
+                     <td class="int-bg">Ballet</td>
+                  </tr>
+                  <tr>
+                     <td>4pm - 5.30pm</td>
+                     <td class="beg-bg">Afro</td>
+                  </tr>
+                  <tr>
+                     <td>6pm - 7.30pm</td>
+                     <td class="beg-bg">Ballet</td>
+                  </tr>
+                  <tr>
+                     <td>8pm - 9.30pm</td>
+                     <td>Contemporary</td>
+                  </tr>
+               </table>
+               <!-- Friday classes -->
+               <table>
+                  <tr>
+                     <th colspan="2">Friday</th>
+                  </tr>
+                  <tr>
+                     <td>8am - 9.30am</td>
+                     <td class="beg-bg">Jazz</td>
+                  </tr>
+                  <tr>
+                     <td>10am - 11.30am</td>
+                     <td class="int-bg">Jazz</td>
+                  </tr>
+                  <tr>
+                     <td>12pm - 1.30pm</td>
+                     <td>Ballet</td>
+                  </tr>
+                  <tr>
+                     <td>2pm - 3.30pm</td>
+                     <td class="beg-bg">Afro</td>
+                  </tr>
+                  <tr>
+                     <td>4pm - 5.30pm</td>
+                     <td class="beg-bg">Jazz</td>
+                  </tr>
+                  <tr>
+                     <td>6pm - 7.30pm</td>
+                     <td>Contemporary</td>
+                  </tr>
+                  <tr>
+                     <td>8pm - 9.30pm</td>
+                     <td class="beg-bg">Contemporary</td>
+                  </tr>
+               </table>
             </div>
-        </section>
-
-        <section id="prices">
+         </section>
+         <!-- Section containing prices and offers -->
+         <section id="prices">
             <h2>Prices & Offers</h2>
+            <!-- List to display the 3 different types of payments -->
             <ul>
-                <li>
-                    <h3> Drop-in class: from <span class="price-style">11£</span> <span
-                            class="parenthesis-style">(depending on level).</span> </h3>
-                    <p> Drop-in classes are subject to availability so please contact us in advance to make sure we keep
-                        a
-                        place for you!</p>
-                </li>
-                <li>
-                    <h3>10-class pass: from <span class="price-style">95£</span> <span
-                            class="parenthesis-style">(depending on level).</span> </h3>
-                    <p>Save 10% with this flexible 10-class pass! You can use it on any classes throughout the term.
-                        Passes will remain valid until one year from the date of purchase.</p>
-                </li>
-                <li>
-                    <h3>16-week course: from <span class="price-style">500£</span> <span
-                            class="parenthesis-style">(depending on level).</span> </h3>
-                    <p>with 3 classes per week, you will work on building
-                        and improving
-                        your skills and technique over the full term.</p>
-                </li>
+               <li>
+                  <h3> Drop-in class: from <span class="price-style">11£</span> <span
+                     class="parenthesis-style">(depending on level).</span> </h3>
+                  <p> Drop-in classes are subject to availability so please contact us in advance to make sure we keep
+                     a
+                     place for you!
+                  </p>
+               </li>
+               <li>
+                  <h3>10-class pass: from <span class="price-style">95£</span> <span
+                     class="parenthesis-style">(depending on level).</span> </h3>
+                  <p>Save 10% with this flexible 10-class pass! You can use it on any classes throughout the term.
+                     Passes will remain valid until one year from the date of purchase.
+                  </p>
+               </li>
+               <li>
+                  <h3>16-week course: from <span class="price-style">500£</span> <span
+                     class="parenthesis-style">(depending on level).</span> </h3>
+                  <p>with 3 classes per week, you will work on building
+                     and improving
+                     your skills and technique over the full term.
+                  </p>
+               </li>
             </ul>
+            <!-- Paragraph containing discount information -->
             <p class="discount">First time bookers get an extra 10% off their booking! What are you waiting for?</p>
+            <!-- button that links to the booking page -->
             <button class="book-btn" onclick="window.location.href ='book-now.html'">Book a class now!</button>
-        </section>
-        <!-- Scroll back to top button script. Inspired by w3schools (button that stops before footer: trick found on stackoverflow)-->
-        <button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="fas fa-arrow-circle-up"></i> </button>
-    </main>
-
-    <footer id="footer">
-        <!-- Address and contacts block -->
-        <div class="footer-flex-item">
+         </section>
+         <!-- Scroll back to top button script. Directions found on https://stackoverflow.com/questions/57847734/stopping-scrolling-back-to-top-button-above-the-footer-at-all-times-pure-css-and -->
+         <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <!-- Arrow up icon for back to top button from fontawesome -->
+            <i class="fas fa-arrow-circle-up"></i>
+         </button>
+      </main>
+      <!-- footer structure -->
+      <footer id="footer">
+         <!-- Address and contacts block -->
+         <div class="footer-flex-item">
             <h2>Address:</h2>
             <p>Castlehill, Edinburgh EH1 2NG</p>
             <br>
             <h2>Contacts:</h2>
             <p>+44 7769382628</p>
             <a href="mailto:bimdancestudio@gmail.com">bimdancestudio@gmail.com</a>
-        </div>
-
-        <!-- Opening times block -->
-        <div class="footer-flex-item">
+         </div>
+         <!-- Opening times block -->
+         <div class="footer-flex-item">
             <h2>Opening times:</h2>
             <br>
             <p>MONDAY - FRIDAY</p>
             <br>
             <p> 8am - 8pm</p>
-        </div>
-
-        <!-- Social media links -->
-        <div class="footer-flex-item">
+         </div>
+         <!-- Social media links -->
+         <div class="footer-flex-item">
             <ul id="social-container">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                        aria-label="Visit YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-                </li>
+               <li>
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                     aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fab fa-facebook-f"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+               </li>
+               <li>
+                  <a href="https://twitter.com/" target="_blank" rel="noopener"
+                     aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                     aria-label="Visit YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+               </li>
             </ul>
-        </div>
-    </footer>
-
-    <!-- Font awesome script -->
-    <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
-
-    <!-- dev.to script for hamburger menu -->
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".nav-flex-container");
-
-        hamburger.addEventListener("click", mobileMenu);
-
-        function mobileMenu() {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-        }
-        // To close the hamburger menu when we click a link
-
-        const navLink = document.querySelectorAll(".nav-link");
-
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-        function closeMenu() {
-            hamburger.classList.remove("active");
-            navMenu.classList.remove("active");
-        }
-    </script>
-    <!-- Scroll back to top button script -->
-    <script>
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-
-            // check that button is not lower than footer.
-            let footerElement = document.getElementById('footer');
-            let footerElementRect = footerElement.getBoundingClientRect();
-            let mybuttonPositionBottom = mybutton.offsetTop + mybutton.offsetHeight;
-            if (footerElementRect.y < mybuttonPositionBottom) {
-                // if button is lower than footer.
-                // modify css bottom.
-                let diffheight = mybuttonPositionBottom - footerElementRect.y;
-                let style = window.getComputedStyle(mybutton);
-                let addBottom = parseInt(style.getPropertyValue('bottom')) + diffheight;
-                mybutton.style.bottom = addBottom + '10px'; // maybe add more 10 px for bottom space of a button.
-            } else {
-                // if button is heigher than footer. this including scroll up.
-                // remove custom css bottom.
-                mybutton.style.bottom = '';
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-</body>
-
+         </div>
+      </footer>
+      <!-- Font awesome script -->
+      <script src="https://kit.fontawesome.com/1705e36da1.js" crossorigin="anonymous"></script>
+      <!-- dev.to script for hamburger menu -->
+      <script>
+         const hamburger = document.querySelector(".hamburger");
+         const navMenu = document.querySelector(".nav-flex-container");
+         
+         hamburger.addEventListener("click", mobileMenu);
+         
+         function mobileMenu() {
+             hamburger.classList.toggle("active");
+             navMenu.classList.toggle("active");
+         }
+         // To close the hamburger menu when we click a link
+         
+         const navLink = document.querySelectorAll(".nav-link");
+         
+         navLink.forEach(n => n.addEventListener("click", closeMenu));
+         
+         function closeMenu() {
+             hamburger.classList.remove("active");
+             navMenu.classList.remove("active");
+         }
+      </script>
+      <!-- Scroll back to top button script -->
+      <script>
+         //Get the button
+         var mybutton = document.getElementById("myBtn");
+         
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function () {
+             scrollFunction()
+         };
+         
+         function scrollFunction() {
+             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 mybutton.style.display = "block";
+             } else {
+                 mybutton.style.display = "none";
+             }
+         
+             // check that button is not lower than footer.
+             let footerElement = document.getElementById('footer');
+             let footerElementRect = footerElement.getBoundingClientRect();
+             let mybuttonPositionBottom = mybutton.offsetTop + mybutton.offsetHeight;
+             if (footerElementRect.y < mybuttonPositionBottom) {
+                 // if button is lower than footer.
+                 // modify css bottom.
+                 let diffheight = mybuttonPositionBottom - footerElementRect.y;
+                 let style = window.getComputedStyle(mybutton);
+                 let addBottom = parseInt(style.getPropertyValue('bottom')) + diffheight;
+                 mybutton.style.bottom = addBottom + '10px'; // maybe add more 10 px for bottom space of a button.
+             } else {
+                 // if button is heigher than footer. this including scroll up.
+                 // remove custom css bottom.
+                 mybutton.style.bottom = '';
+             }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+             document.body.scrollTop = 0;
+             document.documentElement.scrollTop = 0;
+         }
+      </script>
+   </body>
 </html>

@@ -10,7 +10,7 @@
 body {
     width: 100vw;
     font-family: 'Nunito', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(42, 40, 44);
 }
 
@@ -117,7 +117,6 @@ nav a:hover {
     background-color: rgba(44, 52, 60, .6);
     background-size: 100%;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
     padding: 3rem;
     height: 100%;
     width: 100%;
@@ -151,7 +150,6 @@ nav a:hover {
 .hero-content-text span {
     font-family: 'Lora', serif;
     font-weight: lighter;
-    font-size: inherit;
     font-style: italic;
     display: block;
     margin-top: 2rem;
@@ -179,7 +177,7 @@ nav a:hover {
 }
 
 #genres-taught p {
-    width: 65%;
+    max-width: 85vw;
     margin: 0 auto;
     text-align: center;
     line-height: 4rem;
@@ -444,7 +442,8 @@ footer a {
 
 .instructor-specifics h3 {
     font-family: 'Lora', serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .instructor-details p {
@@ -582,10 +581,7 @@ td {
 
 #prices h3 {
     font-family: 'Lora', serif;
-}
-
-#prices p {
-    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 .price-style {
@@ -596,7 +592,7 @@ td {
 
 .parenthesis-style {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .discount {
@@ -817,14 +813,6 @@ input,
         font-size: 1.8rem;
     }
 
-    #prices p {
-        font-size: 1.5rem;
-    }
-
-    .parenthesis-style {
-        font-size: 1.2rem;
-    }
-
     /* Booking page */
 
     form {
@@ -1022,13 +1010,13 @@ input,
     }
 
     .hero-content-text h2 {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         font-weight: 400;
     }
 
     .hero-content-text span {
         display: block;
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
     .hero-content button {
@@ -1242,6 +1230,10 @@ input,
 
     .price-style {
         font-size: 2rem;
+    }
+
+    #prices h3{
+        font-size: 1.5rem;
     }
 
     /* Booking page */

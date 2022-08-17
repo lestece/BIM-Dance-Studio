@@ -238,6 +238,11 @@
      width: 40%;
      line-height: 3rem;
 }
+
+#meet-the-team-h2{
+    font-weight: 400;
+}
+
  #meet-the-team-btn {
      background-color: rgba(44, 52, 60, 0.8);
      color: rgb(255, 255, 255);

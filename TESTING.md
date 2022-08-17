@@ -8,6 +8,10 @@ All HTML and CSS code for BIM Dance Studio website has been passed through the W
 
 - ### W3C HTML VALIDATION RESULTS
 
+1) #### Index.html
+
+![index.html validated](docs/TESTING-images/homepage-validated.png)
+
 - ### W3C (Jigsaw) CSS VALIDATION RESULTS
 
 
@@ -16,6 +20,12 @@ All HTML and CSS code for BIM Dance Studio website has been passed through the W
 4) ## BROWSER COMPATIBILITY 
 
 5) ## BUGS & FIXES
+
+- index.html validator warning:
+
+![index.html validator warning](docs/TESTING-images/homepage-validation-warning.png)
+
+The second time the homepage was run through the validator, it returned a warning: this was easily fixed by switching the paragraph in the "meet the team" section with an h2 and giving this last one an ID to target it in the styles.css and contrast the bold font-weight style that was coming from the other h2's style.
 
 6) ## LIGHTHOUSE
 

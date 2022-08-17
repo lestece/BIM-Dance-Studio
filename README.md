@@ -238,6 +238,8 @@ Inspiration for this button has been taken from [here](https://stackoverflow.com
 
 ## 4. TESTING
 
+All of the information regarding the testind can be found [here](TESTING.md)
+
 ## 5. CREDITS
 
 ## 6. DEPLOYMENT

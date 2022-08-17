@@ -1,6 +1,6 @@
 # BIM-Dance-Studio
 
-![AmIResponsive](docs/docs-images/amiresponsive.png)
+![AmIResponsive](docs/README-images/amiresponsive.png)
 
 Website for a dance studio based in Edinburgh
 
@@ -82,7 +82,7 @@ __#2C343C__ (dark-blue color) has been mostly used for the nav bar, hero section
 
 __#c5c0b9__ (creamy color) has been mainly used as a background color for some sections, buttons and headings.
 
-![Color palette](docs/docs-images/palette.png)
+![Color palette](docs/README-images/palette.png)
 
 - #### ICONS
 Icons were needed for the social media links and have been taken from [FontAwesome](https://fontawesome.com/).
@@ -116,14 +116,14 @@ The header appears at the top of all of the website pages and stays consistent a
 It features an absolute positioning so that it stands on top of the hero sections and has a transparent background for the hero images to come trough.
 It is a flex container and flexbox properties have been used to achieve the different displays based on screen size.
 
-![Desktop header](docs/docs-images/header.png)
+![Desktop header](docs/README-images/header.png)
 
 On large screen sizes the logo is positioned on the left of the header, while the navigation bar is on the right.
-![Tablet header](docs/docs-images/tablet-header.png)
+![Tablet header](docs/README-images/tablet-header.png)
 
 On tablets views the header is displayed in two different rows, with the logo at the top and the nav bar below it (flex direction changed to column).
 
-![Smartphone header](docs/docs-images/smartphone-header.png) ![Smartphone header active](docs/docs-images/smartphone-header-active.png)
+![Smartphone header](docs/docs-images/smartphone-header.png) ![Smartphone header active](docs/README-images/smartphone-header-active.png)
 
 In smaller screen sizes the header goes back to display the logo on the left, with the difference that now the navigation bar has been replaced by an hamburger menu. The header is also now positioned fixed so that if the user doesn't close the hamburger menu and keeps scrolling the page, there's no breakage since the hamburger menu opens in a fixed window.
 
@@ -133,13 +133,13 @@ The hamburger menu has been inspired by [this tutorial](https://dev.to/devggaura
 
 The hero section showcases the dance studio flair: with a catchy background image overlayed by a captivating intro about the website objective, it also contains an immediate call to action for users to book a class.
 
-![Hero section](docs/docs-images/hero-image-section.png)
+![Hero section](docs/README-images/hero-image-section.png)
 
 - #### CLASSES SECTION
 
 After a brief introduction, the classes section under the hero displays a grid of the dance genres taught in the studio (paired with an image) and a button that links to the "Classes & Prices" page. It's a further aid for navigation purposes and encourages users to discover more and feel more engaged with the brand.
 
-![Classes section](docs/docs-images/classes-section.png)
+![Classes section](docs/README-images/classes-section.png)
 
 - #### CAROUSEL
 
@@ -147,38 +147,38 @@ The "genres taught" section in the homepage is displayed with a carousel/ slides
 
 The carousel has been adapted to the tutorial on [this tutorial](https://www.w3schools.com/howto/howto_js_slideshow.asp) on __W3schools__ .
 
-![Genres taught carousel](docs/docs-images/carousel.gif)
+![Genres taught carousel](docs/README-images/carousel.gif)
 
 - #### MEET THE TEAM SECTION
 
 This section of the homepage reassures the user about the studio reliability. It also provides a link to the "Instructors" page of the website.
 
-![Instructors section](docs/docs-images/meet-the-team.png)
+![Instructors section](docs/README-images/meet-the-team.png)
 
 - #### PRICING SECTION
 
 The pricing section contains a further link to the "classes & prices" page of the website. The user is comforted by the presence of transparency about pricing.
 
-![Pricing section](docs/docs-images/pricing-section.png)
+![Pricing section](docs/README-images/pricing-section.png)
 
 - #### LOCATION
 
 A Google Maps Location has been embed through iframes, showing the users the dance studio location that resizes based on the screen size. 
 
-![Location section](docs/docs-images/location-section.png)
+![Location section](docs/README-images/location-section.png)
 
 - #### FOOTER
 
 The footer is consistent in all of the pages and it shows the adress and contacts for the studio, opening times, and social media links that open in a new tab for easy navigation.
 It is fully responsive, with social media icons flexed on a row of their own when viewed from medium and small devices.
 
-![Footer](docs/docs-images/footer.png)
+![Footer](docs/README-images/footer.png)
 
 - #### INSTRUCTORS PAGE
 
 This page further reassures the users, providing information regarding the instructors educational background and professional experience. The information is accompanied by the instructors profile pictures to additionally establish an emotional connection with the user.
 
-![Instructors page](docs/docs-images/instructors-page.gif)
+![Instructors page](docs/README-images/instructors-page.gif)
 
 - #### CLASSES & PRICES PAGE
 
@@ -187,10 +187,10 @@ The page is divided into two sections.
 1. ##### CLASSES TIMETABLE
 Preceded by a color legend that matches the dance class level taught, it contains a table that shows what classes are available for every day of the week at certain specific times.
 
-![Large screens classes timetable](docs/docs-images/classes-timetable.png)
+![Large screens classes timetable](docs/README-images/classes-timetable.png)
 On large screens, all of the classes for each day of the week and each time of the day are showed in a unique table.
 
-![Medium/small screens classes timetables](docs/docs-images/smarthphone-class-timetable.gif)
+![Medium/small screens classes timetables](docs/README-images/smarthphone-class-timetable.gif)
 For medium and small screens, each day of the week is displayed in its own table. The user can look for the day of the week he/she's interested in by scrolling down the page.
 
 2. ##### PRICES
@@ -198,18 +198,18 @@ For medium and small screens, each day of the week is displayed in its own table
 This section provides clear and transparent information about the prices options the client can decide to go for, based on personal needs and preferences. 
 It also contains a button that links to the booking page, assuming that after the information given in this section the user is satisfied and convinced to proceed with a booking.
 
-![Prices section](docs/docs-images/prices.png)
+![Prices section](docs/README-images/prices.png)
 
 - #### BOOKING PAGE
 
-![Booking page](docs/docs-images/booking-page.png)
+![Booking page](docs/README-images/booking-page.png)
 
 The booking page contains a form, with all of the clien-side form validation, that requests the user to input all of the necessary personal information and requests to book a class.
 
 After filling in the form the user can either decide to __confirm the booking__ or __reset the form__.
 
 - #### BOOKING CONFIRMATION PAGE
-![Booking confirmaton page](docs/docs-images/booking-confirmation-page.png)
+![Booking confirmaton page](docs/README-images/booking-confirmation-page.png)
 
 This page appears when the user clicks on the "Book now" button in the booking page. It reassures the user about the correct submission of their booking request.
 __Momentarily it is a page that doesn't store any data, just used for aesthetic purposes due to the nature of this project__.
@@ -217,7 +217,7 @@ __Momentarily it is a page that doesn't store any data, just used for aesthetic 
 The user can then decide if to book another class or be redirected to the homepage.
 
 - #### BACK TO TOP BUTTON
-![Back to Top button](docs/docs-images/back-to-top-btn.png)
+![Back to Top button](docs/README-images/back-to-top-btn.png)
 
 All of the web pages provide the user with a fixed "Back to top" button for helping them to quickly and easily scroll back to the top of the pages.
 

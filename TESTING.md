@@ -30,7 +30,7 @@ All HTML for BIM Dance Studio website passes through the [W3C HTML validator](ht
 
 - ### W3C (Jigsaw) CSS VALIDATION RESULTS
 
-All the CSS written for BIM Dance Studio passes through the [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) with no errors or warnings.
+All the CSS written for BIM Dance Studio passes through the [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) with no errors.
 
 ![CSS validation](docs/TESTING-images/css-validation.png)
 
@@ -40,6 +40,18 @@ All the CSS written for BIM Dance Studio passes through the [Jigsaw CSS validato
 4) ## BROWSER COMPATIBILITY 
 
 5) ## BUGS & FIXES
+
+- Error (1) in the validation process from all of the html pages
+
+![html validation error 1](docs/TESTING-images/html-error-1.png)
+
+An error was returned while trying out the html validation during the website coding. Quickly fixed by deleting that extra/unnecessary space.
+
+- Error (2) in the validation process from all of the html pages
+
+![html validation error 2](docs/TESTING-images/html-error-2.png)
+
+The initial approach of enclosing the buttons inside of an anchor element to link to the appropriate pages/parts of the pages was detected as an error from the HTML validation service. It was fixed by changing approach and linking the buttons using the "onclick" Javascript function.
 
 - index.html validator warning:
 

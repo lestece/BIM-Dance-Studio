@@ -67,5 +67,27 @@ The instructors page gave back a warning regarding the buttons section: easily a
 
 6) ## LIGHTHOUSE
 
+All of the pages have been tested with [Lighthouse Chrome Developer tool](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en): Performance, Accessibility and Best Practices all came back with scores __above 90__ from the reports.
+
+- Homepage Lighthouse report:
+
+![index.html lighthouse report](docs/TESTING-images/homepage-lighthouse-report.png)
+
+- Instructors page Lighthouse report:
+
+![instructors.html lighthouse report](docs/TESTING-images/instructors-lighthouse-report.png)
+
+- Classes & Prices Lighthouse report:
+
+![classes-and-prices.html lighthouse report](docs/TESTING-images/classes%26prices-lighthouse-report.png)
+
+- Booking page Lighthouse report:
+
+![book-now.html lighthouse report](docs/TESTING-images/booking-page-lighthouse-report.png)
+
+- Booking confirmation page Lighthouse report:
+
+![booking-confirmation lighthouse report](docs/TESTING-images/booking-confirmation-lighthouse-report.png)
+
 7) ## USER TESTING
 

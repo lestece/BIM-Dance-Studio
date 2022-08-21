@@ -80,6 +80,57 @@ All the CSS written for BIM Dance Studio passes through the [Jigsaw CSS validato
 
 3) ## RESPONSIVENESS TESTING
 
+All of the website pages have been tested for responsiveness using the Developer Tools in Google Chrome. 
+Both the "device mode" and "responsive" function have been involved in the process, to make sure all of the website features and media queries are working as intended.
+
+All of the features that are common to all of the pages show the responsiveness aimed:
+
+- The navigation bar correctly floats under the logo from 1012px and disappears into the hamburger menu from 666px and down.
+
+- The three footer blocks behave as programmed: from 768px and under, the Contacts and Opening times block are displayed on the same row, and the social media links on their own row at the bottom.
+At 666px and down, the footer is still fully responsive displaying each block in its own row.
+
+- ### Homepage responsiveness
+
+![Homepage responsiveness](docs/TESTING-images/homepage-responsiveness.gif)
+
+- The "genres taught" section correctly switches to display the genres in a column at 768px and under, and the carousel shows up as its meant to at 666px and down.
+
+- From 768px and under the "meet the team" section text is rightly displayed above the button
+
+- The location map is fully responsive
+
+- ### Instructors page responsiveness
+
+![Instructors page responsiveness](docs/TESTING-images/instructors-page-responsiveness.gif)
+
+- At 666px and down, the instructor specifics and details for each instructor block correctly float under the instructore profile picture
+
+- The two buttons at the end of the page switch to display one under the other when reaching small screen sizes
+
+- ### Classes & Prices responsiveness
+
+![Classes and prices responsiveness](docs/TESTING-images/classes-and-prices-responsiveness.gif)
+
+- When reaching 768px, the classes timetable is fully responsive and switches to a single table for each day of the week
+
+- At 666px and down the color legend blocks display correctly in a column
+
+- ### Booking page responsiveness
+
+![Booking page responsiveness](docs/TESTING-images/booking-page-responsiveness.gif)
+
+- From 1012px, the inputs for name, surname, email address and telephone number display in a column as intended
+
+- When the screen reaches 768px the input for date and select element for time correctly float one under the other
+
+- When the screen is shrunk for medium devices (768px and down) the genre and payment options labels and respective radios and checkboxes correctly occupy a single row by their own.
+
+- ### Booking confirmation page responsiveness
+
+![Booking confirmation page responsiveness](docs/TESTING-images/booking-confirmation-page-responsiveness.gif)
+
+When tested for responsiveness, also the booking confirmation page hasn't shown any issue.
 
 
 4) ## BROWSER COMPATIBILITY 

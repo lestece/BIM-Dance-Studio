@@ -123,7 +123,7 @@ On large screen sizes the logo is positioned on the left of the header, while th
 
 On tablets views the header is displayed in two different rows, with the logo at the top and the nav bar below it (flex direction changed to column).
 
-![Smartphone header](docs/docs-images/smartphone-header.png) ![Smartphone header active](docs/README-images/smartphone-header-active.png)
+![Smartphone header](docs/README-images/smartphone-header.png) ![Smartphone header active](docs/README-images/smartphone-header-active.png)
 
 In smaller screen sizes the header goes back to display the logo on the left, with the difference that now the navigation bar has been replaced by an hamburger menu. The header is also now positioned fixed so that if the user doesn't close the hamburger menu and keeps scrolling the page, there's no breakage since the hamburger menu opens in a fixed window.
 

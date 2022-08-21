@@ -68,6 +68,8 @@ The reset button in the booking page resets the form correctly.
 
 - The submit button in the booking form has been tested to make sure it links to the booking confirmation page.
 
+[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+
 ## 2) CODE VALIDATION
 
 All HTML for BIM Dance Studio website passes through the [W3C HTML validator](https://validator.w3.org/) with no errors or warnings.
@@ -100,6 +102,7 @@ All the CSS written for BIM Dance Studio passes through the [Jigsaw CSS validato
 
 ![CSS validation](docs/TESTING-images/css-validation.png)
 
+[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
 
 ## 3) RESPONSIVENESS TESTING
 
@@ -155,6 +158,7 @@ At 666px and down, the footer is still fully responsive displaying each block in
 
 When tested for responsiveness, also the booking confirmation page hasn't shown any issue.
 
+[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
 
 ## 4) BROWSER COMPATIBILITY 
 
@@ -171,6 +175,8 @@ BIM Dance Studio website has been tested for browser compatibility in the follow
 
 - Microsoft Edge
 ![Microsoft Edge compatibility](docs/TESTING-images/Microsoft-edge-compatibility.gif)
+
+[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
 
 ## 5) BUGS & FIXES
 
@@ -211,6 +217,8 @@ I've decided to fix it by removing the function and allow the button to go below
 
 Testing the booking page, I realised that the form couldn't be submitted because of the first payment option being set as "required". Since the initial goal was to make the block of checkboxes related to payment a required field, and not a specific checkbox, I've deciced to remove the required attribute and ignore it for now, because it would have needed the use of jQuery to reach my initial aim. It would be implemented in the future when the booking page is a properly functioning one and works as explained in the [future features to implement](README.md/#features-to-implement-in-the-future) section of the README file.
 
+[Back to top ↑](TESTING.md/#bim-dance-studio-testing) 
+
 ## 6) LIGHTHOUSE
 
 All of the pages have been tested with [Lighthouse Chrome Developer tool](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en): Performance, Accessibility and Best Practices all came back with scores __above 90__ from the reports.
@@ -235,6 +243,10 @@ All of the pages have been tested with [Lighthouse Chrome Developer tool](https:
 
 ![booking-confirmation lighthouse report](docs/TESTING-images/booking-confirmation-lighthouse-report.png)
 
+[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+
 ## 7) USER TESTING
 
 In addition to the above testing, I've asked my family, friends and peers on Slack to review my project and test it on their devices. The response was overall very positive and their feedback invaluable. No issues were encountered on their devices.
+
+[Back to top ↑](TESTING.md/#bim-dance-studio-testing)

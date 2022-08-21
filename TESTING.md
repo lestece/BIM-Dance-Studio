@@ -1,6 +1,29 @@
 # BIM Dance Studio Testing
 
-1) ## MANUAL TESTING
+## TABLE OF CONTENTS
+
+1) [Manual Testing](TESTING.md/#1-manual-testing)
+    - [Internal links](TESTING.md/#internal-links)
+    - [External links](TESTING.md/#external-links)
+    - [Booking page](TESTING.md/#booking-page)
+2) [Code Validation](TESTING.md/#2-code-validation)
+    - [W3C HTML Validation](TESTING.md/#w3c-html-validation-results)
+    - [W3C (Jigsaw) CSS Validation](TESTING.md/#w3c-jigsaw-css-validation-results)
+3) [Responsiveness testing](TESTING.md/#3-responsiveness-testing)
+    - [Homepage responsiveness](TESTING.md/#homepage-responsiveness)
+    - [Intstrctors page responsiveness](TESTING.md/#instructors-page-responsiveness)
+    - [Classes and prices responsiveness](TESTING.md/#classes--prices-responsiveness)
+    - [Booking page responsiveness](TESTING.md/#booking-page-responsiveness)
+    - [Booking confirmation page responsiveness](TESTING.md/#booking-confirmation-page-responsiveness)
+4) [Browser compatibility](TESTING.md/#4-browser-compatibility)
+5) [Bugs and fixes](TESTING.md/#5-bugs--fixes)
+6) [Lighthouse reports](TESTING.md/#6-lighthouse)
+7) [User testing](TESTING.md/#7-user-testing)
+
+[⬅ Back to the README.md file](README.md)
+
+
+## 1) MANUAL TESTING
 
 - ### Internal links
 
@@ -45,7 +68,7 @@ The reset button in the booking page resets the form correctly.
 
 - The submit button in the booking form has been tested to make sure it links to the booking confirmation page.
 
-2) ## CODE VALIDATION
+## 2) CODE VALIDATION
 
 All HTML for BIM Dance Studio website passes through the [W3C HTML validator](https://validator.w3.org/) with no errors or warnings.
 
@@ -78,7 +101,7 @@ All the CSS written for BIM Dance Studio passes through the [Jigsaw CSS validato
 ![CSS validation](docs/TESTING-images/css-validation.png)
 
 
-3) ## RESPONSIVENESS TESTING
+## 3) RESPONSIVENESS TESTING
 
 All of the website pages have been tested for responsiveness using the Developer Tools in Google Chrome. 
 Both the "device mode" and "responsive" function have been involved in the process, to make sure all of the website features and media queries are working as intended.
@@ -133,7 +156,7 @@ At 666px and down, the footer is still fully responsive displaying each block in
 When tested for responsiveness, also the booking confirmation page hasn't shown any issue.
 
 
-4) ## BROWSER COMPATIBILITY 
+## 4) BROWSER COMPATIBILITY 
 
 BIM Dance Studio website has been tested for browser compatibility in the following browser:
 
@@ -146,10 +169,10 @@ BIM Dance Studio website has been tested for browser compatibility in the follow
 - Opera
 ![Opera compatibility](docs/TESTING-images/Opera-compatibility.gif)
 
--Microsoft Edge
+- Microsoft Edge
 ![Microsoft Edge compatibility](docs/TESTING-images/Microsoft-edge-compatibility.gif)
 
-5) ## BUGS & FIXES
+## 5) BUGS & FIXES
 
 - Error (1) in the validation process from all of the html pages
 
@@ -188,7 +211,7 @@ I've decided to fix it by removing the function and allow the button to go below
 
 Testing the booking page, I realised that the form couldn't be submitted because of the first payment option being set as "required". Since the initial goal was to make the block of checkboxes related to payment a required field, and not a specific checkbox, I've deciced to remove the required attribute and ignore it for now, because it would have needed the use of jQuery to reach my initial aim. It would be implemented in the future when the booking page is a properly functioning one and works as explained in the [future features to implement](README.md/#features-to-implement-in-the-future) section of the README file.
 
-6) ## LIGHTHOUSE
+## 6) LIGHTHOUSE
 
 All of the pages have been tested with [Lighthouse Chrome Developer tool](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en): Performance, Accessibility and Best Practices all came back with scores __above 90__ from the reports.
 
@@ -212,5 +235,6 @@ All of the pages have been tested with [Lighthouse Chrome Developer tool](https:
 
 ![booking-confirmation lighthouse report](docs/TESTING-images/booking-confirmation-lighthouse-report.png)
 
-7) ## USER TESTING
+## 7) USER TESTING
 
+In addition to the above testing, I've asked my family, friends and peers on Slack to review my project and test it on their devices. The response was overall very positive and their feedback invaluable. No issues were encountered on their devices.

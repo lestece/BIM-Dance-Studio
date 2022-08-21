@@ -14,6 +14,14 @@
 
 - The logo links to the homepage if clicked with no error
 
+![Booking confirmation book another class link testing](docs/TESTING-images/booking-confirmation-book-another-link-testing.gif)
+
+The link to the book-now.html in the booking confirmation page has been tested and works.
+
+![Booking confirmation link to homepage testing](docs/TESTING-images/booking-confirmation-homepage-link-testing.gif)
+
+Also the link to the homepage in the booking confirmation page works with no issues.
+
 - ### External links
 
 ![Footer external links testing](docs/TESTING-images/footer-external-links.gif)

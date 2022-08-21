@@ -72,6 +72,12 @@ The instructors page gave back a warning regarding the buttons section: easily a
 While testing the website I noticed that, even if the Javascript function was instructing the button to stop before the footer, as soon as the screen kept been scrolled down at the end of the footer and scrolled back up, the back-to-top button started going below the footer and "shaking" up and down as if the function for keeping it above the footer wasn't agreeing with the CSS for the button that is positioning it 80px from the bottom.
 I've decided to fix it by removing the function and allow the button to go below the footer, since in small screen devices this last one is anyway a large section that would be improved by the button presence.
 
+- Booking page: payment option checkboxes required
+
+![book-now.html payment checkboxes](docs/TESTING-images/booking-page-payment-checkbox-bug.gif)
+
+Testing the booking page, I realised that the form couldn't be submitted because of the first payment option being set as "required". Since the initial goal was to make the block of checkboxes related to payment a required field, and not a specific checkbox, I've deciced to remove the required attribute and ignore it for now, because it would have needed the use of jQuery to reach my initial aim. It would be implemented in the future when the booking page is a properly functioning one and works as explained in the [future features to implement](README.md/#features-to-implement-in-the-future) section of the README file.
+
 6) ## LIGHTHOUSE
 
 All of the pages have been tested with [Lighthouse Chrome Developer tool](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en): Performance, Accessibility and Best Practices all came back with scores __above 90__ from the reports.

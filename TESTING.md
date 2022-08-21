@@ -33,6 +33,18 @@ All of them have been coded and tested for opening in a new tab.
 
 All HTML for BIM Dance Studio website passes through the [W3C HTML validator](https://validator.w3.org/) with no errors or warnings.
 
+- ### Booking page
+
+![Booking page reset button testing](docs/TESTING-images/reset-button-form-testing.gif)
+
+The reset button in the booking page resets the form correctly.
+
+![Booking page form validation and submission testing](docs/TESTING-images/booking-form-testing.gif)
+
+- The booking form inputs are rightly validated
+
+- The submit button in the booking form has been tested to make sure it links to the booking confirmation page.
+
 - ### W3C HTML VALIDATION RESULTS
 
 1) #### Index.html

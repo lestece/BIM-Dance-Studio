@@ -22,16 +22,16 @@ The link to the book-now.html in the booking confirmation page has been tested a
 
 Also the link to the homepage in the booking confirmation page works with no issues.
 
+![Hamburger menu testing](docs/TESTING-images/hamburger-menu-testing.gif)
+
+All of the internal links in the hamburger menu for small screen sizes work and link correctly to the appropriate pages.
+
 - ### External links
 
 ![Footer external links testing](docs/TESTING-images/footer-external-links.gif)
 
 The only external links in the website are found in the footer, social media section. 
 All of them have been coded and tested for opening in a new tab.
-
-2) ## CODE VALIDATION
-
-All HTML for BIM Dance Studio website passes through the [W3C HTML validator](https://validator.w3.org/) with no errors or warnings.
 
 - ### Booking page
 
@@ -44,6 +44,10 @@ The reset button in the booking page resets the form correctly.
 - The booking form inputs are rightly validated
 
 - The submit button in the booking form has been tested to make sure it links to the booking confirmation page.
+
+2) ## CODE VALIDATION
+
+All HTML for BIM Dance Studio website passes through the [W3C HTML validator](https://validator.w3.org/) with no errors or warnings.
 
 - ### W3C HTML VALIDATION RESULTS
 
@@ -75,6 +79,8 @@ All the CSS written for BIM Dance Studio passes through the [Jigsaw CSS validato
 
 
 3) ## RESPONSIVENESS TESTING
+
+
 
 4) ## BROWSER COMPATIBILITY 
 

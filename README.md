@@ -39,6 +39,7 @@ Website for a dance studio based in Edinburgh
     - [Frameworks, Libraries and Programs used](#frameworks-libraries-and-programs-used)
 6. [CREDITS](#6-credits)
 7. [DEPLOYMENT](#7-deployment)
+8. [ACKNOwLEDGEMENTS](#8-acknowledgements)
 
 ## 1. INTRODUCTION
 
@@ -340,14 +341,20 @@ All of the code implemented from other sources/tutorial has been referenced in t
 
 ## 7. DEPLOYMENT
 
-The project has been deployed to GitHub pages taking the following steps:
+The project has been deployed to __GitHub pages__ taking the following steps:
 
-1) In the project repository, locate the Settings tab and click on it
+1) In the project repository, locate the _Settings_ tab and click on it
 
-2) Once in the Settings, locate the Pages tab down the side menu and click on it to open the GitHub Pages tab
+2) Once in the Settings, locate the _Pages_ tab down the side menu and click on it to open the GitHub Pages tab
 
-3) Under "Source", select the "Main" branch from the drop-down menu instead of "None"
+3) Under "Source", select the _"Main" branch_ from the drop-down menu instead of "None"
 
 4) Once clicking "Save", the page will automatically refresh displaying the link for the successfully deployed website.
 
 ![GitHub deployment](docs/README-images/github-deployment.png)
+
+## 8. ACKNOWLEDGEMENTS
+
+The site was developed as the Projec Portfolio 1 for the _Full Stack Software Developer Diploma_ at the [Code Insitute](https://codeinstitute.net/). 
+I'd like to thank my mentor, __Seun__, for her encouragement, positivity and invaluable feedback given during our sessions.
+I'd also like to thank the __Slack__ Community for all of the help that directly and indirectly it provides on a daily basis to my learning and improvement.

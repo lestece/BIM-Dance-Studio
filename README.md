@@ -313,11 +313,29 @@ All of the information regarding the testind can be found [here](TESTING.md)
 - __Freeformatter.com__: used for formatting all of the HTML pages
 - __cleancss.com__: used for formatting the styles.css file
 - __AmIResponsive__: used for capturing a screenshot of how the website look on different screen sizes (screenshot that introduces this README file)
+- __TinyPNG__: used for compressing and optimizing all of the images used in the website
+- __Befunky.com__: used for resizing all of the images
 
 [Back to top ↑](TESTING.md/#bim-dance-studio-testing)
 
 ## 6. CREDITS
 
+- ### Media
+
+- All images were sourced from [Pexels](https://www.pexels.com/) 
+
+- All of the icons (social media buttons and back-to-top button) were sourced from [FontAwesome](https://fontawesome.com/)
+
+-The title bar icon was sourced from [Flaticon](https://www.flaticon.com/) and created by __monkik__
+
+- ### Code
+All of the code implemented from other sources/tutorial has been referenced in the comments accompanying the code.
+
+- The hamburger menu to make the navigation bar responsive for small screen sizes has been made possible thanks to [this tutorial](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci) on the [Dev.to](https://dev.to/) website.
+
+- For the creation and implementation of the carousel for the "genres taught" section in the homepage, displayed in small screen sizes, I followed [this tutorial](https://www.w3schools.com/howto/howto_js_slideshow.asp) on W3Schools.
+
+- Instructions for the back-to-top button were found on [Stackoverflow](https://stackoverflow.com/questions/57847734/stopping-scrolling-back-to-top-button-above-the-footer-at-all-times-pure-css-and).
 
 
 ## 7. DEPLOYMENT

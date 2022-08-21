@@ -315,7 +315,7 @@ All of the information regarding the testind can be found [here](TESTING.md)
 - __AmIResponsive__: used for capturing a screenshot of how the website look on different screen sizes (screenshot that introduces this README file)
 - __TinyPNG__: used for compressing and optimizing all of the images used in the website
 - __Befunky.com__: used for resizing all of the images
-
+- __GoogleMaps__: sued for embedding the location map at the end of the homepage through an iframe
 [Back to top ↑](TESTING.md/#bim-dance-studio-testing)
 
 ## 6. CREDITS
@@ -339,3 +339,15 @@ All of the code implemented from other sources/tutorial has been referenced in t
 
 
 ## 7. DEPLOYMENT
+
+The project has been deployed to GitHub pages taking the following steps:
+
+1) In the project repository, locate the Settings tab and click on it
+
+2) Once in the Settings, locate the Pages tab down the side menu and click on it to open the GitHub Pages tab
+
+3) Under "Source", select the "Main" branch from the drop-down menu instead of "None"
+
+4) Once clicking "Save", the page will automatically refresh displaying the link for the successfully deployed website.
+
+![GitHub deployment](docs/README-images/github-deployment.png)

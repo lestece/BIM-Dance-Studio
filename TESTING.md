@@ -2,6 +2,25 @@
 
 1) ## MANUAL TESTING
 
+- ### Internal links
+
+![Internal links testing](docs/TESTING-images/internal-links-testing.gif)
+
+- All of the buttons that link to internal parts of the website (other pages of the same one or section of the same page/other pages) have been tested and work with no issues.
+
+- All of the navigation bar links work and link to the right pages
+
+- The back to top button correctly does its job
+
+- The logo links to the homepage if clicked with no error
+
+- ### External links
+
+![Footer external links testing](docs/TESTING-images/footer-external-links.gif)
+
+The only external links in the website are found in the footer, social media section. 
+All of them have been coded and tested for opening in a new tab.
+
 2) ## CODE VALIDATION
 
 All HTML for BIM Dance Studio website passes through the [W3C HTML validator](https://validator.w3.org/) with no errors or warnings.

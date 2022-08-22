@@ -48,7 +48,7 @@ This site has been created as a business website for __a fictional Dance Studio,
 I've created this static front-end website to _showcase my knowledge of HTML and CSS, accessibility, responsitivity and UX Design._
 The design is clean, modern and elegant to reassure users about the dance studio professionality and reliability. 
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 ## 2. USER EXPERIENCE DESIGN
 
@@ -63,14 +63,14 @@ Users are adults based in Edinburgh who want to:
 - have the chance to contact and locate easily the dance studio
 - easily book a class with just a couple of clicks using their devices
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 ### BUSINESS GOALS
 
 - increase the amount of class participants and consequently the business revenue
 - promote the dance studio online presence
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 ### WIREFRAMES
 
@@ -78,8 +78,7 @@ All wireframes were created with [Figma](https://www.figma.com/) while keeping i
 
 [See wireframes here](docs/wireframes)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
-
+[Back to top ↑](README.md/#bim-dance-studio)
 ### DESIGN
 
 - #### COLORS
@@ -88,20 +87,20 @@ I've used [Coolors](https://coolors.co/) website to generate a colour palette fo
 
 The palette was generated from the homepage __hero image__ and then adjusted to my personal preferences. The result is a palette that fits well with the whole design and images chosen.
 
-I wanted to keep a good contrast between text and background, so that most of the website has been styled using a white background and the dark grey color __(#2a282c)__ for paragraphs.
+I wanted to keep a good contrast between text and background, so that most of the website has been styled using a white background and the _dark grey color_ __(#2a282c)__ for paragraphs.
 
-__#2C343C__ (dark-blue color) has been mostly used for the nav bar, hero section (homepage, with a white text color for contrast), footer background and some buttons background colors. 
+__#2C343C__ _(dark-blue color)_ has been mostly used for the nav bar, hero section (homepage, with a white text color for contrast), footer background and some buttons background colors. 
 
-__#c5c0b9__ (creamy color) has been mainly used as a background color for some sections, buttons and headings.
+__#c5c0b9__ _(creamy color)_ has been mainly used as a background color for some sections, buttons and headings.
 
 ![Color palette](docs/README-images/palette.png)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### ICONS
 Icons were needed for the social media links and have been taken from [FontAwesome](https://fontawesome.com/).
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### TYPOGRAPHY
 The chosen fonts fo the website are:
@@ -113,20 +112,20 @@ It's a modern and artistic font, mostly used for headings and buttons. It revert
 2. __Nunito__ , a simple and easily readable sans serif, mainly used for the paragraphs, that pairs well with Lora.
 Sans-serif is the font fallback.
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)#
 
 - #### IMAGES
 
 All images have been selected and taken from [Pexels](https://www.pexels.com) and then compressed and optimized using [TinyPNG](https://tinypng.com/).
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### MOCKUPS
 After all of the design details were decided and the website content composed, I've used [Figma](https://www.figma.com/) to create mockups for all of the website pages and different screen sizes so that I'd have a high-fidelity website simulation to follow as a coding guide: the result is an aesthetically pleasing design that helps satisfying the website goals.
 
 [See mockups here](docs/mockups)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 ## 3. FEATURES
 
@@ -139,10 +138,9 @@ It features an absolute positioning so that it stands on top of the hero section
 It is a flex container and flexbox properties have been used to achieve the different displays based on screen size.
 
 ![Desktop header](docs/README-images/header.png)
-
 On large screen sizes the logo is positioned on the left of the header, while the navigation bar is on the right.
-![Tablet header](docs/README-images/tablet-header.png)
 
+![Tablet header](docs/README-images/tablet-header.png)
 On tablets views the header is displayed in two different rows, with the logo at the top and the nav bar below it (flex direction changed to column).
 
 ![Smartphone header](docs/README-images/smartphone-header.png) ![Smartphone header active](docs/README-images/smartphone-header-active.png)
@@ -151,7 +149,7 @@ In smaller screen sizes the header goes back to display the logo on the left, wi
 
 The hamburger menu has been inspired by [this tutorial](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci) on the __Dev Community__.
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### HERO SECTION
 
@@ -159,7 +157,7 @@ The hero section showcases the dance studio flair: with a catchy background imag
 
 ![Hero section](docs/README-images/hero-image-section.png)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### CLASSES SECTION
 
@@ -167,17 +165,17 @@ After a brief introduction, the classes section under the hero displays a grid o
 
 ![Classes section](docs/README-images/classes-section.png)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### CAROUSEL
 
 The "genres taught" section in the homepage is displayed with a carousel/ slideshow on screens 666px and under.
 
-The carousel has been adapted to the tutorial on [this tutorial](https://www.w3schools.com/howto/howto_js_slideshow.asp) on __W3schools__ .
+The carousel has been adapted to [this tutorial](https://www.w3schools.com/howto/howto_js_slideshow.asp) on __W3schools__ .
 
 ![Genres taught carousel](docs/README-images/carousel.gif)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### MEET THE TEAM SECTION
 
@@ -185,7 +183,7 @@ This section of the homepage reassures the user about the studio reliability. It
 
 ![Instructors section](docs/README-images/meet-the-team.png)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### PRICING SECTION
 
@@ -193,7 +191,7 @@ The pricing section contains a further link to the "classes & prices" page of th
 
 ![Pricing section](docs/README-images/pricing-section.png)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### LOCATION
 
@@ -201,16 +199,16 @@ A Google Maps Location has been embed through iframes, showing the users the dan
 
 ![Location section](docs/README-images/location-section.png)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### FOOTER
 
-The footer is consistent in all of the pages and it shows the adress and contacts for the studio, opening times, and social media links that open in a new tab for easy navigation.
+The footer is consistent in all of the pages and it shows the Address and Contacts for the studio, opening times, and social media links that open in a new tab for easy navigation.
 It is fully responsive, with social media icons flexed on a row of their own when viewed from medium and small devices.
 
 ![Footer](docs/README-images/footer.png)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### INSTRUCTORS PAGE
 
@@ -218,7 +216,7 @@ This page further reassures the users, providing information regarding the instr
 
 ![Instructors page](docs/README-images/instructors-page.gif)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### CLASSES & PRICES PAGE
 
@@ -228,12 +226,14 @@ The page is divided into two sections.
 Preceded by a color legend that matches the dance class level taught, it contains a table that shows what classes are available for every day of the week at certain specific times.
 
 ![Large screens classes timetable](docs/README-images/classes-timetable.png)
+
 On large screens, all of the classes for each day of the week and each time of the day are showed in a unique table.
 
 ![Medium/small screens classes timetables](docs/README-images/smarthphone-class-timetable.gif)
+
 For medium and small screens, each day of the week is displayed in its own table. The user can look for the day of the week he/she's interested in by scrolling down the page.
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 2. ##### PRICES
 
@@ -242,17 +242,17 @@ It also contains a button that links to the booking page, assuming that after th
 
 ![Prices section](docs/README-images/prices.png)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### BOOKING PAGE
 
 ![Booking page](docs/README-images/booking-page.png)
 
-The booking page contains a form, with all of the clien-side form validation, that requests the user to input all of the necessary personal information and requests to book a class.
+The booking page contains a form, with all of the client-side form validation, that requests the user to input all of the necessary personal information and preferences to book a class.
 
 After filling in the form the user can either decide to __confirm the booking__ or __reset the form__.
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### BOOKING CONFIRMATION PAGE
 ![Booking confirmaton page](docs/README-images/booking-confirmation-page.png)
@@ -262,9 +262,10 @@ __Momentarily it is a page that doesn't store any data, just used for aesthetic 
 
 The user can then decide if to book another class or be redirected to the homepage.
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### BACK TO TOP BUTTON
+
 ![Back to Top button](docs/README-images/back-to-top-btn.png)
 
 All of the web pages provide the user with a fixed "Back to top" button for helping them to quickly and easily scroll back to the top of the pages.
@@ -272,9 +273,9 @@ All of the web pages provide the user with a fixed "Back to top" button for help
 
 _The button has been omitted in the booking page and the booking confirmation page_ because considered uneccessary due to the little (or none) scrolling the user has to make.
 
-Inspiration for this button has been taken from [here](https://stackoverflow.com/questions/57847734/stopping-scrolling-back-to-top-button-above-the-footer-at-all-times-pure-css-and).
+Guidance for the implementation of this button has been taken from [here](https://stackoverflow.com/questions/57847734/stopping-scrolling-back-to-top-button-above-the-footer-at-all-times-pure-css-and).
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 ### FEATURES TO IMPLEMENT IN THE FUTURE
 
@@ -286,13 +287,13 @@ Inspiration for this button has been taken from [here](https://stackoverflow.com
 
 - The option for paying straight away during the booking a class process
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 ## 4. TESTING
 
 All of the information regarding the testind can be found [here](TESTING.md)
 
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+[Back to top ↑](README.md/#bim-dance-studio)
 
 ## 5. TECHNOLOGIES USED
 
@@ -303,21 +304,22 @@ All of the information regarding the testind can be found [here](TESTING.md)
 
  ### Frameworks, Libraries and Programs used
 
- - __Gitpod__: used for writing this website code, committing and pushing to GitHub.
-- __GitHub__: used for hosting, storing and deploying the project
-- __Figma__: used for designing the wireframes and mockups for the website in the first phase of the development process
-- __Google Fonts__: used for importing the fonts for this  website ("Lora" and "Nunito") into the CSS file
-- __FontAwesome__: used for the social media icons and the icon for the back-to-top button
-- __Flaticon.com__: used for the title bar icon
-- __Favicon__: used for converting the title bar icon into the .ico format
-- __GifCap (by João Moreno)__: used for creating the gifs from the screen recordings during the testing process. The gifs are found in the TESTING.md file.
-- __Freeformatter.com__: used for formatting all of the HTML pages
-- __cleancss.com__: used for formatting the styles.css file
-- __AmIResponsive__: used for capturing a screenshot of how the website look on different screen sizes (screenshot that introduces this README file)
-- __TinyPNG__: used for compressing and optimizing all of the images used in the website
-- __Befunky.com__: used for resizing all of the images
-- __GoogleMaps__: sued for embedding the location map at the end of the homepage through an iframe
-[Back to top ↑](TESTING.md/#bim-dance-studio-testing)
+ - [GitPod](https://gitpod.io): used for writing this website code, committing and pushing to GitHub.
+- [GitHub](https://github.com/): used for hosting, storing and deploying the project
+- [Figma](https://www.figma.com/): used for designing the wireframes and mockups for the website in the first phase of the development process
+- [Google Fonts](https://fonts.google.com/): used for importing the fonts for this  website ("Lora" and "Nunito") into the CSS file
+- [FontAwesome](https://fontawesome.com/): used for the social media icons and the icon for the back-to-top button
+- [Flaticon.com](https://www.flaticon.com/): used for the title bar icon
+- [Favicon](https://favicon.io/): used for converting the title bar icon into the .ico format
+- [GifCap (by João Moreno)](https://gifcap.dev/): used for creating the gifs from the screen recordings during the testing process. The gifs are found in the TESTING.md file.
+- [Freeformatter.com](https://freeformatter.com/): used for formatting all of the HTML pages
+- [Cleancss.com](https://www.cleancss.com/): used for formatting the styles.css file
+- [AmIResponsive](https://ui.dev/amiresponsive): used for capturing a screenshot of how the website look on different screen sizes (screenshot that introduces this README file)
+- [TinyPNG](https://tinypng.com/): used for compressing and optimizing all of the images used in the website
+- [Befunky.com](https://www.befunky.com/): used for resizing all of the images
+- [GoogleMaps](https://www.google.com/maps): used for embedding the location map at the end of the homepage through an iframe
+
+[Back to top ↑](README.md/#bim-dance-studio)
 
 ## 6. CREDITS
 
@@ -327,7 +329,7 @@ All of the information regarding the testind can be found [here](TESTING.md)
 
 - All of the icons (social media buttons and back-to-top button) were sourced from [FontAwesome](https://fontawesome.com/)
 
--The title bar icon was sourced from [Flaticon](https://www.flaticon.com/) and created by __monkik__
+- The title bar icon was sourced from [Flaticon](https://www.flaticon.com/) and created by __monkik__
 
 - ### Code
 All of the code implemented from other sources/tutorial has been referenced in the comments accompanying the code.
@@ -337,6 +339,8 @@ All of the code implemented from other sources/tutorial has been referenced in t
 - For the creation and implementation of the carousel for the "genres taught" section in the homepage, displayed in small screen sizes, I followed [this tutorial](https://www.w3schools.com/howto/howto_js_slideshow.asp) on W3Schools.
 
 - Instructions for the back-to-top button were found on [Stackoverflow](https://stackoverflow.com/questions/57847734/stopping-scrolling-back-to-top-button-above-the-footer-at-all-times-pure-css-and).
+
+[Back to top ↑](README.md/#bim-dance-studio)
 
 
 ## 7. DEPLOYMENT
@@ -353,8 +357,12 @@ The project has been deployed to __GitHub pages__ taking the following steps:
 
 ![GitHub deployment](docs/README-images/github-deployment.png)
 
+[Back to top ↑](README.md/#bim-dance-studio)
+
 ## 8. ACKNOWLEDGEMENTS
 
-The site was developed as the Projec Portfolio 1 for the _Full Stack Software Developer Diploma_ at the [Code Insitute](https://codeinstitute.net/). 
+The site was developed as the Project Portfolio 1 for the _Full Stack Software Developer Diploma_ at the [Code Insitute](https://codeinstitute.net/). 
 I'd like to thank my mentor, __Seun__, for her encouragement, positivity and invaluable feedback given during our sessions.
 I'd also like to thank the __Slack__ Community for all of the help that directly and indirectly it provides on a daily basis to my learning and improvement.
+
+[Back to top ↑](README.md/#bim-dance-studio)

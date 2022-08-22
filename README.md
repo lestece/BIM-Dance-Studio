@@ -340,6 +340,7 @@ All of the code implemented from other sources/tutorial has been referenced in t
 
 - Instructions for the back-to-top button were found on [Stackoverflow](https://stackoverflow.com/questions/57847734/stopping-scrolling-back-to-top-button-above-the-footer-at-all-times-pure-css-and).
 
+
 [Back to top ↑](README.md/#bim-dance-studio)
 
 
@@ -363,6 +364,6 @@ The project has been deployed to __GitHub pages__ taking the following steps:
 
 The site was developed as the Project Portfolio 1 for the _Full Stack Software Developer Diploma_ at the [Code Insitute](https://codeinstitute.net/). 
 I'd like to thank my mentor, __Seun__, for her encouragement, positivity and invaluable feedback given during our sessions.
-I'd also like to thank the __Slack__ Community for all of the help that directly and indirectly it provides on a daily basis to my learning and improvement.
+I'd also like to thank the __Slack__ Community for all of the help that directly and indirectly it provides on a daily basis to my learning and improvement, and for the helpful feedback given on this project.
 
 [Back to top ↑](README.md/#bim-dance-studio)

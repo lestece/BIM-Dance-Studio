@@ -224,6 +224,12 @@ Setting the min-width to 88vw fixed both of the problems (commit __5522eaa__).
 - After commit __799c842__ I noticed a breakpoint starting from 1012px: the hero content was overlapping with the nav bar. Its content was also overflowing and hiding due to the _overflow: hidden_ property I had applied to it.
 Fixed by adding a media query to elongate from that breakpoint the hero outer section and setting a margin-top of 40%.
 
+- After asking a project review on the channel _peer-code-review_ on Slack, _Harry Dhillon_ noticed that if the first time slot in the select options for a time in the Booking page was selected, the form couldn't be submitted.
+![Time slot bug](docs/TESTING-images/time-slot-bug.png)
+
+To fix that, I've added a default option with the content _"Choose a time slot"_ with an empty value, and added values to the time slot options. Also made sure the new changes were validated by the W3C HTML validator, returning no errors or warnings.
+
+
 [Back to top ↑](TESTING.md/#bim-dance-studio-testing) 
 
 ## 6) LIGHTHOUSE

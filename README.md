@@ -39,7 +39,7 @@ Website for a dance studio based in Edinburgh
     - [Frameworks, Libraries and Programs used](#frameworks-libraries-and-programs-used)
 6. [CREDITS](#6-credits)
 7. [DEPLOYMENT](#7-deployment)
-8. [ACKNOwLEDGEMENTS](#8-acknowledgements)
+8. [ACKNOWLEDGEMENTS](#8-acknowledgements)
 
 ## 1. INTRODUCTION
 

@@ -35,7 +35,7 @@
 
 - The back to top button correctly does its job
 
-- The logo links to the homepage if clicked with no error
+- The logo correctly links to the homepage when clicked 
 
 ![Booking confirmation book another class link testing](docs/TESTING-images/booking-confirmation-book-another-link-testing.gif)
 
@@ -216,6 +216,13 @@ I've decided to fix it by removing the function and allow the button to go below
 ![book-now.html payment checkboxes](docs/TESTING-images/booking-page-payment-checkbox-bug.gif)
 
 Testing the booking page, I realised that the form couldn't be submitted because of the first payment option being set as "required". Since the initial goal was to make the block of checkboxes related to payment a required field, and not a specific checkbox, I've deciced to remove the required attribute and ignore it for now, because it would have needed the use of jQuery to reach my initial aim. It would be implemented in the future when the booking page is a properly functioning one and works as explained in the [future features to implement](README.md/#features-to-implement-in-the-future) section of the README file.
+
+- Through the end of the development process, while testing responsiveness, I noticed a whitespace/scroll to the right at 632px and down in the homepage. Also, a part of the navigation bar was disappearing to the top while scrolling down.
+Using the _Inspector_ in the Developer Tools I identified that the issue was coming from the _min-width_ in the genres taught paragraphs set to 95vw. 
+Setting the min-width to 88vw fixed both of the problems (commit __5522eaa__).
+
+- After commit __799c842__ I noticed a breakpoint starting from 1012px: the hero content was overlapping with the nav bar. Its content was also overflowing and hiding due to the _overflow: hidden_ property I had applied to it.
+Fixed by adding a media query to elongate from that breakpoint the hero outer section and setting a margin-top of 40%.
 
 [Back to top ↑](TESTING.md/#bim-dance-studio-testing) 
 

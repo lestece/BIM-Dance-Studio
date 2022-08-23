@@ -229,6 +229,14 @@ Fixed by adding a media query to elongate from that breakpoint the hero outer se
 
 To fix that, I've added a default option with the content _"Choose a time slot"_ with an empty value, and added values to the time slot options. Also made sure the new changes were validated by the W3C HTML validator, returning no errors or warnings.
 
+- On our last session, my mentor _Seun_ noticed that the input for the telephone number in the booking page was allowing letters to be entered into the input field.
+
+![Telephone input bug](docs/TESTING-images/tel-input-bug.gif)
+
+As a solution, I've added an _onkeyup_ Javascript event to the tel input so that only numeric values can be entered.
+This fix was found on __Stackoverflow__ at [this link](https://stackoverflow.com/questions/69329427/why-does-inputtype-tel-allow-non-numerical-characters-to-be-entered).
+
+
 
 [Back to top ↑](TESTING.md/#bim-dance-studio-testing) 
 

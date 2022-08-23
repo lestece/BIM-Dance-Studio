@@ -340,6 +340,9 @@ All of the code implemented from other sources/tutorial has been referenced in t
 
 - Instructions for the back-to-top button were found on [Stackoverflow](https://stackoverflow.com/questions/57847734/stopping-scrolling-back-to-top-button-above-the-footer-at-all-times-pure-css-and).
 
+- A fix for the telephone number input field that was allowing letters to be entered, was found at [this link](https://stackoverflow.com/questions/69329427/why-does-inputtype-tel-allow-non-numerical-characters-to-be-entered) on _Stackoverflow_.
+This bug and fix are better reported [here](TESTING.md/#5-bugs--fixes) in the TESTING.md file.
+
 
 [Back to top ↑](README.md/#bim-dance-studio)
 

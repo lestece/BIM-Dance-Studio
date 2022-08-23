@@ -69,8 +69,8 @@
                   </div>
                   <div class="grid-item">
                      <label for="phone">Telephone:</label>
-                     <input type="tel" id="phone" name="phone" required
-                        pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$" placeholder="07377457098">
+                     <!-- Javascript event onkeyup used to allow only numeric values to be inserted into the tel input field, based on the suggestion found on: https://stackoverflow.com/questions/69329427/why-does-inputtype-tel-allow-non-numerical-characters-to-be-entered -->
+                     <input type="tel" id="phone" name="phone" required minlength="9" maxlength="14" onkeyup="this.value = this.value.replace(/[^0-9-]/g, '');" placeholder="07377457098">
                   </div>
                </div>
                <!-- flex container for data input and select time -->

@@ -571,6 +571,7 @@
  .grid-item input{
      height: 40px;
      max-width: 50%;
+     cursor: pointer;
 }
  #date-time-flex-container{
      margin: 2rem 20%;
@@ -586,6 +587,7 @@
  #date, #class-time {
      height: 2rem;
      margin: 0.4rem auto;
+     cursor: pointer;
 }
  #flex-form-btns {
      display: flex;
@@ -613,6 +615,10 @@
      text-align: center;
      font-family: 'Nunito', sans-serif;
      font-size: 1.2rem;
+}
+ #genre-radios input,
+ #payment-checkboxes input{
+     cursor: pointer;
 }
  #genre-radios input {
      margin-right: 1.5rem;

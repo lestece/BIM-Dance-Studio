@@ -11,7 +11,7 @@
     - [W3C (Jigsaw) CSS Validation](TESTING.md/#w3c-jigsaw-css-validation-results)
 3) [Responsiveness testing](TESTING.md/#3-responsiveness-testing)
     - [Homepage responsiveness](TESTING.md/#homepage-responsiveness)
-    - [Intstrctors page responsiveness](TESTING.md/#instructors-page-responsiveness)
+    - [Instructors page responsiveness](TESTING.md/#instructors-page-responsiveness)
     - [Classes and prices responsiveness](TESTING.md/#classes--prices-responsiveness)
     - [Booking page responsiveness](TESTING.md/#booking-page-responsiveness)
     - [Booking confirmation page responsiveness](TESTING.md/#booking-confirmation-page-responsiveness)
@@ -208,7 +208,7 @@ The instructors page gave back a warning regarding the buttons section: easily a
 
 ![Back-to-top button bug](docs/TESTING-images/back-to-top-bug.gif)
 
-While testing the website I noticed that, even if the Javascript function was instructing the button to stop before the footer, as soon as the screen kept been scrolled down at the end of the footer and scrolled back up, the back-to-top button started going below the footer and "shaking" up and down as if the function for keeping it above the footer wasn't agreeing with the CSS for the button that is positioning it 80px from the bottom.
+While testing the website I noticed that, even if the Javascript function was instructing the button to stop before the footer, as soon as the screen kept being scrolled down at the end of the footer and then scrolled back up, the back-to-top button started going below the footer and "shaking" up and down as if the function for keeping it above the footer wasn't agreeing with the CSS for the button that is positioning it 80px from the bottom.
 I've decided to fix it by removing the function and allow the button to go below the footer, since in small screen devices this last one is anyway a large section that would be improved by the button presence.
 
 - Booking page: payment option checkboxes required

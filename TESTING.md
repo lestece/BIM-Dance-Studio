@@ -165,16 +165,16 @@ When tested for responsiveness, also the booking confirmation page hasn't shown 
 BIM Dance Studio website has been tested for browser compatibility in the following browser:
 
 - Google Chrome
-![Google Chrome compatibility](docs/TESTING-images/Chrome-compatibility.gif)
+![Google Chrome compatibility](docs/TESTING-images/chrome-compatibility.gif)
 
 - Firefox
-![Firefox compatibility](docs/TESTING-images/Firefox-compatibility.gif)
+![Firefox compatibility](docs/TESTING-images/firefox-compatibility.gif)
 
 - Opera
-![Opera compatibility](docs/TESTING-images/Opera-compatibility.gif)
+![Opera compatibility](docs/TESTING-images/opera-compatibility.gif)
 
 - Microsoft Edge
-![Microsoft Edge compatibility](docs/TESTING-images/Microsoft-edge-compatibility.gif)
+![Microsoft Edge compatibility](docs/TESTING-images/microsoft-edge-compatibility.gif)
 
 [Back to top ↑](TESTING.md/#bim-dance-studio-testing)
 

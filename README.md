@@ -2,7 +2,7 @@
 
 ![AmIResponsive](docs/README-images/amiresponsive.png)
 
-Website for a dance studio based in Edinburgh
+__Website for a dance studio based in Edinburgh__
 
 [View the live website here](https://lestece.github.io/BIM-Dance-Studio/)
 
@@ -31,7 +31,7 @@ Website for a dance studio based in Edinburgh
         - [Classes & Prices page](#classes--prices-page)
         - [Booking page](#booking-page)
         - [Booking confirmation page](#booking-confirmation-page)
-        - [Back to top button](#back-to-top-button)
+        - [Back-to-top button](#back-to-top-button)
     - [Features to implement in the future](#features-to-implement-in-the-future)
 4. [TESTING](#4-testing)
 5. [TECHNOLOGIES USED](#5-technologies-used)
@@ -58,9 +58,9 @@ Users are adults based in Edinburgh who want to:
 
 - learn how to dance/improve their dancing skills
 - be taught by qualified and trustworthy professionals
-- be able to see a class timetable to decide if it would work around their schedule
+- be able to see the classes timetable to decide if it would work around their schedule
 - have clear pricing information
-- have the chance to contact and locate easily the dance studio
+- have the chance to easily contact and locate the dance studio
 - easily book a class with just a couple of clicks using their devices
 
 [Back to top ↑](README.md/#bim-dance-studio)
@@ -103,7 +103,7 @@ Icons were needed for the social media links and have been taken from [FontAweso
 [Back to top ↑](README.md/#bim-dance-studio)
 
 - #### TYPOGRAPHY
-The chosen fonts fo the website are:
+The chosen fonts for the website are:
 1. __Lora__, which is 
 > a well-balanced contemporary serif with roots in calligraphy.
 
@@ -112,7 +112,7 @@ It's a modern and artistic font, mostly used for headings and buttons. It revert
 2. __Nunito__ , a simple and easily readable sans serif, mainly used for the paragraphs, that pairs well with Lora.
 Sans-serif is the font fallback.
 
-[Back to top ↑](README.md/#bim-dance-studio)#
+[Back to top ↑](README.md/#bim-dance-studio)
 
 - #### IMAGES
 
@@ -134,18 +134,20 @@ After all of the design details were decided and the website content composed, I
 - #### HEADER
 
 The header appears at the top of all of the website pages and stays consistent and responsive across all of them.
-It features an absolute positioning so that it stands on top of the hero sections and has a transparent background for the hero images to come trough.
+It features an absolute positioning so that it stands on top of the hero sections and has a transparent background for the hero images to come through.
 It is a flex container and flexbox properties have been used to achieve the different displays based on screen size.
 
 ![Desktop header](docs/README-images/header.png)
+
 On large screen sizes the logo is positioned on the left of the header, while the navigation bar is on the right.
 
 ![Tablet header](docs/README-images/tablet-header.png)
+
 On tablets views the header is displayed in two different rows, with the logo at the top and the nav bar below it (flex direction changed to column).
 
 ![Smartphone header](docs/README-images/smartphone-header.png) ![Smartphone header active](docs/README-images/smartphone-header-active.png)
 
-In smaller screen sizes the header goes back to display the logo on the left, with the difference that now the navigation bar has been replaced by an hamburger menu. The header is also now positioned fixed so that if the user doesn't close the hamburger menu and keeps scrolling the page, there's no breakage since the hamburger menu opens in a fixed window.
+In smaller screen sizes the header goes back to display the logo on the left, with the difference that now the navigation bar has been replaced by an hamburger menu. The header is also positioned fixed now, so that if the user doesn't close the hamburger menu and keeps scrolling the page, there's no breakage between header and opened hamburger menu.
 
 The hamburger menu has been inspired by [this tutorial](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci) on the __Dev Community__.
 
@@ -223,11 +225,11 @@ This page further reassures the users, providing information regarding the instr
 The page is divided into two sections.
 
 1. ##### CLASSES TIMETABLE
-Preceded by a color legend that matches the dance class level taught, it contains a table that shows what classes are available for every day of the week at certain specific times.
+Preceded by a color legend that matches the dance class level taught, it contains a table that shows what classes are available for every day of the week during specific time slots.
 
 ![Large screens classes timetable](docs/README-images/classes-timetable.png)
 
-On large screens, all of the classes for each day of the week and each time of the day are showed in a unique table.
+On large screens, all of the classes for each day of the week and each time slot are displayed in a single table.
 
 ![Medium/small screens classes timetables](docs/README-images/smarthphone-class-timetable.gif)
 
@@ -237,8 +239,8 @@ For medium and small screens, each day of the week is displayed in its own table
 
 2. ##### PRICES
 
-This section provides clear and transparent information about the prices options the client can decide to go for, based on personal needs and preferences. 
-It also contains a button that links to the booking page, assuming that after the information given in this section the user is satisfied and convinced to proceed with a booking.
+This section provides clear and transparent information about the pricing options available in the studio, so that the user can make a choice based on personal needs and preferences. 
+It also contains a button that links to the booking page, assuming that after the information given in this section the user is fully satisfied and convinced to proceed with booking a class.
 
 ![Prices section](docs/README-images/prices.png)
 
@@ -260,7 +262,7 @@ After filling in the form the user can either decide to __confirm the booking__ 
 This page appears when the user clicks on the "Book now" button in the booking page. It reassures the user about the correct submission of their booking request.
 __Momentarily it is a page that doesn't store any data, just used for aesthetic purposes due to the nature of this project__.
 
-The user can then decide if to book another class or be redirected to the homepage.
+The user can then decide if to _book another class_ or be _redirected to the homepage_.
 
 [Back to top ↑](README.md/#bim-dance-studio)
 
@@ -268,7 +270,7 @@ The user can then decide if to book another class or be redirected to the homepa
 
 ![Back to Top button](docs/README-images/back-to-top-btn.png)
 
-All of the web pages provide the user with a fixed "Back to top" button for helping them to quickly and easily scroll back to the top of the pages.
+All of the web pages provide the user with a fixed "back-to-top" button for helping them quickly and easily scroll back to the top of the pages.
 
 
 _The button has been omitted in the booking page and the booking confirmation page_ because considered uneccessary due to the little (or none) scrolling the user has to make.
@@ -283,7 +285,7 @@ Guidance for the implementation of this button has been taken from [here](https:
 
 - A gallery page showing the studio rooms and equipment available
 
-- A booking page that merges with the classes timetable so that the user could book a class simply by clicking on the interested one without having to fill in the whole form on a different page
+- A booking page that merges with the classes timetable so that the user could book a class by simply clicking on the interested one without having to fill in with details the whole form in a different page (the booking page)
 
 - The option for paying straight away during the booking a class process
 
@@ -291,7 +293,7 @@ Guidance for the implementation of this button has been taken from [here](https:
 
 ## 4. TESTING
 
-All of the information regarding the testind can be found [here](TESTING.md)
+All of the information regarding the testing can be found [here](TESTING.md)
 
 [Back to top ↑](README.md/#bim-dance-studio)
 
@@ -341,7 +343,7 @@ All of the code implemented from other sources/tutorial has been referenced in t
 - Instructions for the back-to-top button were found on [Stackoverflow](https://stackoverflow.com/questions/57847734/stopping-scrolling-back-to-top-button-above-the-footer-at-all-times-pure-css-and).
 
 - A fix for the telephone number input field that was allowing letters to be entered, was found at [this link](https://stackoverflow.com/questions/69329427/why-does-inputtype-tel-allow-non-numerical-characters-to-be-entered) on _Stackoverflow_.
-This bug and fix are better reported [here](TESTING.md/#5-bugs--fixes) in the TESTING.md file.
+This bug and fix is better reported [here](TESTING.md/#5-bugs--fixes) in the TESTING.md file.
 
 
 [Back to top ↑](README.md/#bim-dance-studio)
